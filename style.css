@@ -6,7 +6,7 @@ body{
 .about_us{
     transform: translate(0);
     font-family: manrope;
-    font-size: 22px;
+    font-size: 25px;
 }
 #about{
     transform: translate(20%);
@@ -44,16 +44,16 @@ body{
 }
 @media only screen and (min-width:0px) and (max-width:480px) {
     #about{
-        font-size:3rem;
+        font-size:2.5rem;
         font-weight: lighter;
     }
     #founded{
-            font-size: 2rem;
+            font-size: 1.5rem;
             width:100% ;
     }
     #hb{
         color: #F57C00;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .mama{
         display: grid;
@@ -66,22 +66,22 @@ body{
         display: none;
     }
     #platform{
-        font-size: 2rem;
+        font-size: 1.5rem;
         width:100% ;
     }
 }
 @media only screen and (min-width:481px) and (max-width:768px) {
     #about{
-        font-size:3rem;
+        font-size:2.5rem;
         font-weight: lighter;
     }
     #founded{
-            font-size: 2rem;
+            font-size: 1.5rem;
             width:100% ;
     }
     #hb{
         color: #F57C00;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .mama{
         display: grid;
@@ -94,17 +94,17 @@ body{
         display: none;
     }
     #platform{
-        font-size: 2rem;
+        font-size: 1.5rem;
         width:100% ;
     }
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
     #about{
-        font-size:3rem;
+        font-size:2.5rem;
         font-weight: lighter;
     }
     #founded{
-            font-size: 2rem;
+            font-size: 1.5rem;
             width:100% ;
     }
     .mama{
@@ -118,22 +118,22 @@ body{
         width: 100%;
     }
     #platform{
-        font-size: 2rem;
+        font-size: 1.5rem;
         width:100% ;
     }
 }
 @media only screen and (min-width:1025px) and (max-width:1200px) {
     #about{
-        font-size:3rem;
+        font-size:2.5rem;
         font-weight: lighter;
     }
     #founded{
-            font-size: 2rem;
+            font-size: 1.5rem;
             width:100% ;
     }
     #hb{
         color: #F57C00;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .mama{
         display: flex;
@@ -143,17 +143,17 @@ body{
         width: 100%;
     }
     #platform{
-        font-size: 2rem;
+        font-size: 1.5rem;
         width:100% ;
     }
 }
 @media only screen and (min-width:1201px) {
     #about{
-        font-size:3rem;
+        font-size:2.5rem;
         font-weight: lighter;
     }
     #founded{
-            font-size: 2rem;
+            font-size: 1.5rem;
             width:100% ;
     }
     .mama{
@@ -170,7 +170,7 @@ body{
         width: 50%;
     }
     #platform{
-        font-size: 2rem;
+        font-size: 1.5rem;
         width:100% ;
     }
 }
