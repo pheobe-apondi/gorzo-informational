@@ -1,0 +1,347 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Manrope";
+    overflow-x: hidden;
+
+}
+
+/* Start Hero-Section */
+
+.home-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 47%;
+    background-image: url(Images/home.jpg);
+    height: 100%;
+    position: relative;
+
+    img {
+
+        width: 10%;
+        position: relative;
+    }
+}
+
+.icons {
+    margin-left: 20%;
+    word-spacing: 1.5em;
+    color: #e05c00;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #773f07;
+}
+
+.home-content {
+    position: absolute;
+    background-color: white;
+    top: 0%;
+    right: 0%;
+    width: 70%;
+    height: 90%;
+    border-radius: 1% 1% 1% 70%;
+    text-align: center;
+
+    nav {
+        padding-top: 5%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        gap: 5%;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+    }
+
+    h1 {
+        margin-top: 7%;
+        font-size: 5em;
+
+    }
+
+    h1 span {
+        color: #F57C00;
+    }
+}
+
+nav a:hover {
+    color: #F57C00;
+    border-bottom: solid 1px #F57C00;
+}
+
+.home-content p {
+    margin-left: 22%;
+    width: 60%;
+    font-size: 2.5em;
+    font-family: "Kodchasan";
+
+}
+
+.home-content button {
+    margin-top: 4%;
+    margin-left: 7%;
+    text-decoration: none;
+    background-color: #F57C00;
+    color: white;
+    cursor: pointer;
+    border: none;
+    height: 7%;
+    padding: 1%;
+    width: 19%;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+.home-content button:hover {
+     background-color: #1e4417;
+}
+
+#vendors {
+    background-color: #e7be95;
+    color: #e67728;
+}
+
+#vendors:hover {
+    background-color: #1e4417;
+    color: white;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .home-bg {
+        height: 74vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+
+        img {
+            z-index: 1;
+            width: 15%;
+        }
+    }
+
+    .home-content {
+        width: 100%;
+        border-radius: 0% 0% 50% 50%;
+        height: 75%;
+
+        nav {
+            padding-top: 20%;
+            font-size: 1rem;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5%;
+
+        }
+
+        h1 {
+            margin-top: 15%;
+            font-size: 3.5em;
+
+        }
+
+    }
+
+    .icons {
+       display: flex;
+       left: 13%;
+       gap: 25%;
+        position: absolute;
+        top: 4%;
+
+    }
+
+    .home-content p {
+        margin: 15%;
+        width: 70%;
+        font-size: 1.2em;
+    }
+
+    .home-content button {
+        margin: 2%;
+        padding: 2%;
+        width: 35%;
+        border-radius: 50px;
+        font-size: 0.9rem;
+    }
+
+}
+
+
+
+@media only screen and (min-width:481px) and (max-width:780px) {
+    .home-bg {
+        height: 74vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+
+        img {
+            z-index: 1;
+            width: 15%;
+        }
+    }
+
+    .home-content {
+        width: 100%;
+        border-radius: 0% 0% 50% 50%;
+        height: 75%;
+
+        nav {
+            padding-top: 15%;
+            font-size: 1.5rem;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5%;
+
+        }
+
+        h1 {
+            margin-top: 15%;
+            font-size: 3.5em;
+
+        }
+
+    }
+
+    .icons {
+        margin: 1% 0% 0% 65%;
+        position: absolute;
+        top: 4.5%;
+
+    }
+
+    .home-content p {
+        margin: 15%;
+        width: 70%;
+        font-size: 1.5em;
+    }
+
+    .home-content button {
+        margin: 2%;
+        padding: 2%;
+        width: 35%;
+        border-radius: 50px;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (min-width:781px)and (max-width:1024px) {
+    .home-bg {
+        height: 25vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+    }
+
+    .home-content {
+        width: 85%;
+        border-radius: 5% 0% 0% 50%;
+        height: 50%;
+
+        h1 {
+            margin-top: 10%;
+            font-size: 3em;
+
+        }
+
+    }
+
+    .icons {
+        margin: 0;
+    }
+
+    .home-content p {
+        margin: 9% 23%;
+        width: 60%;
+        font-size: 1.5em;
+    }
+
+    .home-content button {
+        margin: 1%;
+        padding: 1%;
+        width: 25%;
+        border-radius: 30px;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    .home-bg {
+        height: 30vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+    }
+
+    .home-content {
+        width: 85%;
+        border-radius: 5% 0% 0% 50%;
+        height: 70%;
+
+        h1 {
+            margin-top: 10%;
+            font-size: 5em;
+
+        }
+    }
+
+    .icons {
+        margin: 0;
+    }
+
+    .home-content p {
+        margin: 9% 23%;
+        width: 60%;
+        font-size: 2em;
+    }
+
+    .home-content button {
+        margin: 1%;
+        padding: 1%;
+        width: 25%;
+        border-radius: 50px;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (min-width:1280px) and (max-width:1780px) {
+    .home-bg {
+        height: 30vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+    }
+
+    .home-content {
+        width: 85%;
+        border-radius: 5% 0% 0% 50%;
+        height: 70%;
+
+        h1 {
+            margin-top: 10%;
+            font-size: 5em;
+
+        }
+    }
+
+    .icons {
+        margin: 0;
+    }
+
+    .home-content p {
+        margin: 9% 23%;
+        width: 60%;
+        font-size: 2em;
+    }
+
+    .home-content button {
+        margin: 1%;
+        padding: 1%;
+        width: 25%;
+        border-radius: 50px;
+        font-size: 1.5rem;
+    }
+}
+
+/* End Hero-Section*/
