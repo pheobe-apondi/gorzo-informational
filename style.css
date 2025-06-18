@@ -37,10 +37,10 @@ body{
 }
 #img{
     position: absolute;
-    width: 36%;
-    left: 65%;
+    width: 40%;
+    left: 60%;
     border-radius: 0% 0% 0% 50%;
-    top: -31%;
+    top: -33%;
 }
 @media only screen and (min-width:0px) and (max-width:480px) {
     #about{
@@ -81,7 +81,7 @@ body{
     }
     #hb{
         color: #F57C00;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .mama{
         display: grid;
@@ -112,7 +112,7 @@ body{
     }
     #hb{
         color: #F57C00;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     #mamamboga{
         width: 100%;
@@ -133,7 +133,7 @@ body{
     }
     #hb{
         color: #F57C00;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .mama{
         display: flex;
@@ -164,7 +164,7 @@ body{
     }
     #hb{
         color: #F57C00;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     #mamamboga{
         width: 50%;
