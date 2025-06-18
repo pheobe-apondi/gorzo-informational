@@ -1,0 +1,177 @@
+/* Start-About-us section */
+body{
+    font-family: "Manrope";
+    overflow-x: hidden;
+}
+.about_us{
+    transform: translate(0);
+    font-family: manrope;
+    font-size: 22px;
+}
+#about{
+    transform: translate(20%);
+    font-weight: lighter;
+}
+#us{
+    color: #F57C00;
+}
+#line{
+    border: solid #F57C00 2px;
+}
+#hb{
+    color: #F57C00;
+    font-size: 24px;
+}
+.mama{
+    display: flex;
+      width: 100%;
+      position: relative;
+      margin-top: 0%;
+
+}
+#founded{
+    margin-top: 20%;
+}
+#mamamboga{
+    width: 50%;
+}
+#img{
+    position: absolute;
+    width: 36%;
+    left: 65%;
+    border-radius: 0% 0% 0% 50%;
+    top: -31%;
+}
+@media only screen and (min-width:0px) and (max-width:480px) {
+    #about{
+        font-size:3rem;
+        font-weight: lighter;
+    }
+    #founded{
+            font-size: 2rem;
+            width:100% ;
+    }
+    #hb{
+        color: #F57C00;
+        font-size: 3rem;
+    }
+    .mama{
+        display: grid;
+    
+    }
+    #mamamboga{
+        width: 100%;
+    }
+    #img{
+        display: none;
+    }
+    #platform{
+        font-size: 2rem;
+        width:100% ;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    #about{
+        font-size:3rem;
+        font-weight: lighter;
+    }
+    #founded{
+            font-size: 2rem;
+            width:100% ;
+    }
+    #hb{
+        color: #F57C00;
+        font-size: 3rem;
+    }
+    .mama{
+        display: grid;
+    
+    }
+    #mamamboga{
+        width: 100%;
+    }
+    #img{
+        display: none;
+    }
+    #platform{
+        font-size: 2rem;
+        width:100% ;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    #about{
+        font-size:3rem;
+        font-weight: lighter;
+    }
+    #founded{
+            font-size: 2rem;
+            width:100% ;
+    }
+    .mama{
+        display: grid;
+    }
+    #hb{
+        color: #F57C00;
+        font-size: 2.5rem;
+    }
+    #mamamboga{
+        width: 100%;
+    }
+    #platform{
+        font-size: 2rem;
+        width:100% ;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+    #about{
+        font-size:3rem;
+        font-weight: lighter;
+    }
+    #founded{
+            font-size: 2rem;
+            width:100% ;
+    }
+    #hb{
+        color: #F57C00;
+        font-size: 3rem;
+    }
+    .mama{
+        display: flex;
+    
+    }
+    #mamamboga{
+        width: 100%;
+    }
+    #platform{
+        font-size: 2rem;
+        width:100% ;
+    }
+}
+@media only screen and (min-width:1201px) {
+    #about{
+        font-size:3rem;
+        font-weight: lighter;
+    }
+    #founded{
+            font-size: 2rem;
+            width:100% ;
+    }
+    .mama{
+        display: flex;
+        p{
+            width: 50%;
+        }
+    }
+    #hb{
+        color: #F57C00;
+        font-size: 2.5rem;
+    }
+    #mamamboga{
+        width: 50%;
+    }
+    #platform{
+        font-size: 2rem;
+        width:100% ;
+    }
+}
+/* End-About-us section */
