@@ -1,0 +1,866 @@
+/* Start - Customer-section Css */
+
+.customer_container{
+   display: flex;
+   gap:30vh;
+}
+.customer_activity{
+   display: flex;
+}
+.customer_heading{
+   color: #F57C00;
+    margin-left: 20vh;
+    font-size: 300%;
+    padding-top: 5vh;
+}
+#customer_haba{
+   color: #F57C00;
+}
+.line{
+  border: solid #F57C00;
+}
+#why_choosehaba{
+   text-align: center;
+   margin-top: 5vh;
+   font-size: 300%;
+}
+.customer_side{
+   margin-left: 20vh;
+   padding-top: 10vh;
+}
+#customer_numbers{
+  color: white;
+  text-align: center;
+   width: 2.5vw;
+   height: 5vh;
+   border-radius: 50%;
+   background-color: #F57C00;
+}
+#number_words{
+   margin-left: 2.5vw;
+   margin-top: 2.5vh;
+   font-size: 170%;
+}
+#number_two{
+   width: 2.5vw;
+   height: 5vh;
+   border-radius: 50%;
+   text-align: center;
+   background-color: #F57C00;
+   color: white;
+}
+#phone_image{
+   height: 15vh;
+   margin-left: -25vh;
+   margin-top: 40vh;
+}
+.application_outlook{
+   display: flex;
+  
+}
+.image_container{
+   margin-top: -10vh;
+   margin-left: -10vh;
+}
+#playstore_icon{
+   height: 3vh;
+   margin-top: -1.5vh;
+  
+}
+.playstore_container{
+   display: flex;
+}
+#playstore_words{
+   font-weight: lighter;
+   margin-top: -0.5vh;
+   font-size: 100%;
+   margin-left: 2vh;
+}
+#get_on{
+   font-size: 110%;
+}
+#playstore_container{
+   width: 10vw;
+   background-color: white;
+   border: solid 2px #F57C00;
+   margin-left: 2vh;
+   margin-top: -2vh;
+}
+
+
+
+
+#work_words{
+   color: #F57C00;
+}
+
+
+#working{
+   text-align: center;
+   font-size: 300%;
+}
+.howitworks{
+   margin-top: 20vh;
+}
+
+
+.howitworks_container{
+   display: flex;
+   margin-left: 15vh;
+   margin-top: 15vh;
+   text-align: center;
+   gap: 30vh;
+
+}
+
+#icons_howitworks{
+     /* border: solid; */
+       padding: 17% 20% 17% 10%;
+       width: 5%;
+       border-radius: 50%;
+       font-size: 50px;
+       background-color: #F57C00;
+       color: white;
+}
+
+.howitworks_text{
+   border: solid 2px #F57C00;
+   width: 20vw;
+   height: 30vh;
+   text-align: center;
+   margin-top: 10vh;
+   box-shadow: 0 2px  #F57C00;
+   font-size: 130%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width:480px){
+  
+
+
+.customer_container{
+   display: flex;
+   flex-direction: column;
+   gap:30vh;
+}
+.customer_activity{
+   display: flex;
+}
+.customer_heading{
+   color: #F57C00;
+    margin-left: 4vh;
+    font-size: 200%;
+    padding-top: 5vh;
+}
+#name_haba{
+   color: #F57C00;
+}
+.line{
+  border: solid #F57C00;
+  width: 60%;
+}
+#why_choosehaba{
+   text-align: center;
+   margin-top: 5vh;
+   font-size: 150%;
+}
+.customer_side{
+   margin-left: 1vh;
+   padding-top: 2%;
+}
+#numbers{
+  color: white;
+  text-align: center;
+   width: 7vw;
+   height: 5vh;
+   border-radius: 50%;
+   background-color: #F57C00;
+}
+#number_words{
+   margin-left: 3vw;
+   margin-top: 4vh;
+   font-size: 90%;
+}
+#numbers_two{
+   width: 10vw;
+   height: 5vh;
+   border-radius: 50%;
+   text-align: center;
+   background-color: #F57C00;
+   color: white;
+}
+#phone_image{
+   height: 15vh;
+   margin-left: -25vh;
+   margin-top: 40vh;
+}
+.application_outlook{
+   display: flex;
+   margin-left: -9vh;
+  
+}
+.image_container{
+   margin-top: -20vh;
+}
+#playstore_icon{
+   height: 3vh;
+   
+  
+}
+.playstore_container{
+   display: flex;
+}
+#playstore_words{
+   font-weight: lighter;
+   margin-top: -0.5vh;
+   font-size: 90%;
+   margin-left: 2vh;
+}
+#get_on{
+   font-size: 90%;
+}
+#playstore_container{
+   width: 40vw;
+   background-color: white;
+   border: solid 2px #F57C00;
+   margin-left: 2vh;
+   margin-top: -2vh;
+}
+
+
+
+
+#work_words{
+   color: #F57C00;
+}
+
+
+#working{
+   text-align: center;
+   font-size: 300%;
+}
+.howitworks{
+   margin-top: 20vh;
+}
+
+
+.howitworks_container{
+   display: flex;
+   flex-direction: column;
+   margin-left: 8vh;
+   margin-top: 10vh;
+   text-align: center;
+   gap: 20vh;
+
+}
+
+#icons_howitworks{
+ /* border: solid; */
+       padding: 17% 20% 17% 10%;
+       width: 4%;
+       border-radius: 50%;
+       font-size: 40px;
+       background-color: #F57C00;
+       color: white;
+
+}
+.howitworks_text{
+   border: solid 2px #F57C00;
+   width: 70vw;
+   height: 30vh;
+   text-align: center;
+   margin-top: 2vh;
+   box-shadow: 0 2px  #F57C00;
+   font-size: 100%;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width:768px){
+
+
+.customer_container{
+   display: flex;
+   flex-direction: column;
+   gap:30vh;
+}
+.customer_activity{
+   display: flex;
+}
+.customer_heading{
+   color: #F57C00;
+    margin-left: 2vh;
+    font-size: 250%;
+    padding-top: 5vh;
+}
+#name_haba{
+   color: #F57C00;
+}
+.line{
+  border: solid #F57C00;
+  width: 90%;
+}
+#why_choosehaba{
+   text-align: center;
+   margin-top: 5vh;
+   font-size: 300%;
+}
+.customer_side{
+   margin-left: 5vh;
+   padding-top: 2vh;
+}
+#numbers{
+  color: white;
+  text-align: center;
+   width: 6vw;
+   height: 5vh;
+   border-radius: 50%;
+   background-color: #F57C00;
+}
+#number_words{
+   margin-left: 2.5vw;
+   margin-top: 3vh;
+   font-size: 130%;
+}
+#numbers_two{
+   width: 6vw;
+   height: 5vh;
+   border-radius: 50%;
+   text-align: center;
+   background-color: #F57C00;
+   color: white;
+}
+#phone_image{
+   height: 15vh;
+   margin-left: -25vh;
+   margin-top: 40vh;
+}
+.application_outlook{
+   display: flex;
+   margin-left: -9vh;
+  
+}
+.image_container{
+   margin-top: -20vh;
+}
+#playstore_icon{
+   height: 3vh;
+   
+  
+}
+.playstore_container{
+   display: flex;
+}
+#playstore_words{
+   font-weight: lighter;
+   margin-top: -0.5vh;
+   font-size: 90%;
+   margin-left: 2vh;
+}
+#get_on{
+   font-size: 90%;
+}
+#playstore_container{
+   width: 30vw;
+   background-color: white;
+   border: solid 2px #F57C00;
+   margin-left: 2vh;
+   margin-top: -2vh;
+}
+
+
+
+
+#work_words{
+   color: #F57C00;
+}
+
+
+#working{
+   text-align: center;
+   font-size: 300%;
+}
+.howitworks{
+   margin-top: 20vh;
+}
+
+
+.howitworks_container{
+   display: flex;
+   flex-direction: column;
+   margin-left: 5vh;
+   margin-top: 15vh;
+   text-align: center;
+   gap: 30vh;
+  
+}
+
+#icons_howitworks{
+     /* border: solid; */
+       padding: 13% 12% 13% 9%;
+       width: 5%;
+       border-radius: 50%;
+       font-size: 45px;
+       background-color: #F57C00;
+       color: white;
+}
+
+.howitworks_text{
+   border: solid 2px #F57C00;
+   width: 70vw;
+   height: 30vh;
+   text-align: center;
+   margin-top: 10vh;
+   box-shadow: 0 2px  #F57C00;
+   font-size: 100%;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width:1024px){
+
+
+.customer_container{
+   display: flex;
+   flex-direction: column;
+   gap:30vh;
+}
+.customer_activity{
+   display: flex;
+}
+.customer_heading{
+   color: #F57C00;
+    margin-left: 2vh;
+    font-size: 300%;
+    padding-top: 5vh;
+}
+#name_haba{
+   color: #F57C00;
+}
+.line{
+  border: solid #F57C00;
+  width: 90%;
+}
+#why_choosehaba{
+   text-align: center;
+   margin-top: 5vh;
+   font-size: 300%;
+}
+.customer_side{
+   margin-left: 2vh;
+   padding-top: 1vh;
+}
+#numbers{
+  color: white;
+  text-align: center;
+   width: 3vw;
+   height: 5.5vh;
+   border-radius: 50%;
+   background-color: #F57C00;
+}
+#number_words{
+   margin-left: 2.5vw;
+   margin-top: 2vh;
+   font-size: 230%;
+}
+#numbers_two{
+   width: 4vw;
+   height: 5.5vh;
+   border-radius: 50%;
+   text-align: center;
+   background-color: #F57C00;
+   color: white;
+}
+#phone_image{
+   height: 15vh;
+   margin-left: -17vh;
+   margin-top: 25vh;
+}
+.application_outlook{
+   display: flex;
+   margin-left: 5vh;
+  
+}
+.image_container{
+   margin-top: -20vh;
+}
+#playstore_icon{
+   height: 3vh;
+   
+  
+}
+.playstore_container{
+   display: flex;
+}
+#playstore_words{
+   font-weight: lighter;
+   margin-top: -0.5vh;
+   font-size: 90%;
+   margin-left: 5vh;
+}
+#get_on{
+   font-size: 90%;
+}
+#playstore_container{
+   width: 20vw;
+   background-color: white;
+   border: solid 2px #F57C00;
+   margin-left: 2vh;
+   margin-top: -2vh;
+}
+
+
+
+
+#work_words{
+   color: #F57C00;
+}
+
+
+#working{
+   text-align: center;
+   font-size: 300%;
+}
+.howitworks{
+   margin-top: 20vh;
+}
+
+
+.howitworks_container{
+   display: flex;
+   flex-direction: column;
+   margin-left: 5vh;
+   margin-top: 15vh;
+   text-align: center;
+   gap: 10vh;
+  
+}
+
+
+#icons_howitworks{
+ /* border: solid; */
+       padding: 12% 10% 13% 10%;
+       width: 5%;
+       border-radius: 50%;
+       font-size: 50px;
+       background-color: #F57C00;
+       color: white;
+
+
+}
+
+.howitworks_text{
+   border: solid 2px #F57C00;
+   width: 50vw;
+   height: 40vh;
+   text-align: center;
+   margin-top: 10vh;
+   box-shadow: 0 2px  #F57C00;
+   font-size: 150%;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+.customer_container{
+   display: flex;
+   gap:30vh;
+}
+.customer_activity{
+   display: flex;
+}
+.customer_heading{
+   color: #F57C00;
+    margin-left: 2vh;
+    font-size: 300%;
+    padding-top: 5vh;
+}
+#name_haba{
+   color: #F57C00;
+}
+.line{
+  border: solid #F57C00;
+  width: 90%;
+}
+#why_choosehaba{
+   text-align: center;
+   margin-top: 5vh;
+   font-size: 200%;
+}
+.customer_side{
+   margin-left: 5vh;
+   padding-top: 2vh;
+}
+#numbers{
+  color: white;
+  text-align: center;
+   width: 4vw;
+   height: 6vh;
+   border-radius: 50%;
+   background-color: #F57C00;
+}
+#number_words{
+   margin-left: 2vw;
+   margin-top: 3vh;
+   font-size: 130%;
+}
+#numbers_two{
+   width: 6vw;
+   height: 6vh;
+   border-radius: 50%;
+   text-align: center;
+   background-color: #F57C00;
+   color: white;
+}
+#phone_image{
+   height: 15vh;
+   margin-left: -25vh;
+   margin-top: 40vh;
+}
+.application_outlook{
+   display: flex;
+   margin-left: 2vh;
+  
+}
+.image_container{
+   margin-top: -20vh;
+}
+#playstore_icon{
+   height: 3vh;
+   margin-top: -2vh;
+  
+}
+.playstore_container{
+   display: flex;
+}
+#playstore_words{
+   font-weight: lighter;
+   margin-top: -0.5vh;
+   font-size: 100%;
+   margin-left: 1vh;
+}
+#get_on{
+   font-size: 100%;
+}
+#playstore_container{
+   width: 15vw;
+   background-color: white;
+   border: solid 2px #F57C00;
+   margin-left: 2vh;
+   margin-top: -2vh;
+}
+
+
+
+
+#work_words{
+   color: #F57C00;
+}
+
+
+#working{
+   text-align: center;
+   font-size: 300%;
+}
+.howitworks{
+   margin-top: 20vh;
+}
+
+
+.howitworks_container{
+   display: flex;
+   margin-left: 1vh;
+   margin-top: 15vh;
+   text-align: center;
+   gap: 3vh;
+ 
+}
+
+#icons_howitworks{
+     /* border: solid; */
+       padding: 15% 12% 15% 12%;
+       width: 5%;
+       border-radius: 50%;
+       font-size: 30px;
+       background-color: #F57C00;
+       color: white;
+}
+.howitworks_text{
+   border: solid 2px #F57C00;
+   width: 30vw;
+   height: 30vh;
+   text-align: center;
+   margin-top: 10vh;
+   box-shadow: 0 2px  #F57C00;
+   font-size: 100%;
+}
+}
+@media only screen and (min-width: 1201px) and (max-width:1400px){
+
+
+
+
+.customer_container{
+   display: flex;
+   gap:30vh;
+}
+.customer_activity{
+   display: flex;
+}
+.customer_heading{
+   color: #F57C00;
+    margin-left: 2vh;
+    font-size: 300%;
+    padding-top: 5vh;
+}
+#name_haba{
+   color: #F57C00;
+}
+.line{
+  border: solid #F57C00;
+  width: 90%;
+}
+#why_choosehaba{
+   text-align: center;
+   margin-top: 5vh;
+   font-size: 300%;
+}
+.customer_side{
+   margin-left: 5vh;
+   padding-top: 1vh;
+}
+#numbers{
+  color: white;
+  text-align: center;
+   width: 3vw;
+   height: 4.5vh;
+   border-radius: 50%;
+   background-color: #F57C00;
+}
+#number_words{
+   margin-left: 2.5vw;
+   margin-top: 2.5vh;
+   font-size: 150%;
+}
+#numbers_two{
+   width: 5vw;
+   height: 4.5vh;
+   border-radius: 50%;
+   text-align: center;
+   background-color: #F57C00;
+   color: white;
+}
+#phone_image{
+   height: 15vh;
+   margin-left: -20vh;
+   margin-top: 33vh;
+}
+.application_outlook{
+   display: flex;
+   margin-left: 1vh;
+  
+}
+.image_container{
+   margin-top: -18vh;
+}
+#playstore_icon{
+   height: 3vh;
+ 
+  
+}
+.playstore_container{
+   display: flex;
+}
+#playstore_words{
+   font-weight: lighter;
+   margin-top: -0.5vh;
+   font-size: 130%;
+   margin-left: 2vh;
+}
+#get_on{
+   font-size: 100%;
+}
+#playstore_container{
+   width: 15vw;
+   background-color: white;
+   border: solid 2px #F57C00;
+   margin-left: 2vh;
+   margin-top: -2vh;
+}
+
+
+
+
+#work_words{
+   color: #F57C00;
+}
+
+
+#working{
+   text-align: center;
+   font-size: 300%;
+}
+.howitworks{
+   margin-top: 20vh;
+}
+
+
+.howitworks_container{
+   display: flex;
+   margin-left: 9vh;
+   margin-top: 15vh;
+   text-align: center;
+   gap: 5vh;
+  
+}
+
+#icons_howitworks{
+   /* border: solid; */
+       padding: 17% 16% 15% 10%;
+       width: 5%;
+       border-radius: 50%;
+       font-size: 35px;
+       background-color: #F57C00;
+       color: white;
+
+}
+.howitworks_text{
+   border: solid 2px #F57C00;
+   width: 25vw;
+   height: 30vh;
+   text-align: center;
+   margin-top: 10vh;
+   box-shadow: 0 2px  #F57C00;
+   font-size: 120%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* End - Customer-section Css */
