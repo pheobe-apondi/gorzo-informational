@@ -1,0 +1,463 @@
+
+.title h1 {
+    color: black;
+     font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.vendors-section{
+    color: black;
+}
+
+#addproduct h3 {
+    color: black;
+}
+
+.highlight {
+    color: #ff6600;
+}
+
+
+
+
+.vendor {
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .title h1 {
+   
+} */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone-images {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.phone-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.phone-back-left {
+    transform: rotate(-10deg) translateX(-20%) translateY(10px);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.phone-front {
+    z-index: 3;
+    transform: translateY(0);
+}
+
+.phone-back-right {
+    transform: rotate(10deg) translateX(20%) translateY(10px);
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.vendors-section {
+    text-align: left;
+    margin-left: 50px;
+    position: relative;
+}
+
+.vendors-section h2 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    color: #e05c00;
+}
+
+.vendor-list {
+
+
+    margin-right: 150px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.vendor-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    margin-left: 0;
+}
+
+
+.circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.groceries-img {
+    position: absolute;
+    top: 90%;
+    right: -80px;
+    width: 100%;
+    height: 70%;
+
+}
+
+.visit-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+
+.visit-button:hover {
+    background-color: #e05c00;
+}
+
+
+.grow-business-section {
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.grow-business-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+ .description {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 1.1em;
+    color: black;
+}
+
+.vendors-icon {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 280px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box-front {
+    transform: translateY(-30px);
+    box-shadow: 0 8px 16px rgba(206, 97, 8, 0.2);
+    z-index: 4;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.sales-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.box h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #ff6600;
+    
+}
+
+.box p {
+    font-size: 0.95em;
+    color: #666;
+}
+
+.vegetable-basket-img {
+    position: absolute;
+    bottom: -50px;
+    right: 50px;
+    width: 250px;
+
+
+}
+
+
+
+
+
+@media screen and  (max-width: 480px)
+ {
+
+.title h1 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+.vendors-icon {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+}
+.phone-images {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    left: -40px;
+    margin-bottom: 50px;
+}
+.vendors-section {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+.vendor-list {
+
+
+    margin-right: 150px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.vendor-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.0em;
+ 
+}
+
+
+ .vendors-section h2 {
+   
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e05c00;
+} 
+
+    .feature-box-front {
+        transform: translateY(0);
+        
+    }
+
+
+.feature-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+    .groceries-img,
+    .vegetable-basket-img {
+        position: static;
+     
+        margin: 20px auto;
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+@media screen and  (min-width: 481px) and (max-width:768px)
+ {
+
+.title h1 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+.vendors-icon {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+}
+.phone-images {
+    position: relative;
+    width: 90px;
+    height: 110px;
+    left: -40px;
+    margin-bottom: 50px;
+}
+.vendors-section {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+.vendor-list {
+
+
+    margin-right: 150px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.vendor-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.0em;
+ 
+}
+
+
+ .vendors-section h2 {
+   
+    font-size: 1.5em;
+     margin-left: 40px;
+ 
+    color: #e05c00;
+} 
+
+    .feature-box-front {
+        transform: translateY(0);
+        
+    }
+
+
+.feature-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+    .groceries-img,
+    .vegetable-basket-img {
+        position: static;
+     
+        margin: 20px auto;
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+.vendors-section h2 {
+   
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e05c00;
+}
+
+.phone-images {
+    position: relative;
+    width: 180px;
+    height: 150px;
+    left: -40px;
+    margin-bottom: 50px;
+}
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+.vendors-section h2 {
+   
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e05c00;
+}
+
+.phone-images {
+    position: relative;
+    width: 180px;
+    height: 150px;
+    left: -40px;
+    margin-bottom: 50px;
+}
+
+}
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+
+.vendors-section h2 {
+   
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e05c00;
+}
+
+.phone-images {
+    position: relative;
+    width: 180px;
+    height: 150px;
+    left: -40px;
+    margin-bottom: 50px;
+}
+
+}
+
