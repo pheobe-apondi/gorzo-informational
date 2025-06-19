@@ -1,3 +1,9 @@
+body{
+    font-family: "Manrope";
+
+
+}
+
 /* Start - Customer-section Css */
 
 .customer_container{
@@ -10,7 +16,7 @@
 .customer_heading{
    color: #F57C00;
     margin-left: 20vh;
-    font-size: 300%;
+    font-size: 60px;
     padding-top: 5vh;
 }
 #customer_haba{
@@ -22,11 +28,11 @@
 #why_choosehaba{
    text-align: center;
    margin-top: 5vh;
-   font-size: 300%;
+   font-size: 70px;
 }
 .customer_side{
    margin-left: 20vh;
-   padding-top: 10vh;
+   padding-top: 5vh;
 }
 #customer_numbers{
   color: white;
@@ -34,6 +40,7 @@
    width: 2.5vw;
    height: 5vh;
    border-radius: 50%;
+   padding: 2% 1% 1% 1%;
    background-color: #F57C00;
 }
 #number_words{
@@ -41,18 +48,11 @@
    margin-top: 2.5vh;
    font-size: 170%;
 }
-#number_two{
-   width: 2.5vw;
-   height: 5vh;
-   border-radius: 50%;
-   text-align: center;
-   background-color: #F57C00;
-   color: white;
-}
+
 #phone_image{
    height: 15vh;
-   margin-left: -25vh;
-   margin-top: 40vh;
+   margin-left: -20vh;
+   margin-top: 30vh;
 }
 .application_outlook{
    display: flex;
@@ -60,11 +60,11 @@
 }
 .image_container{
    margin-top: -10vh;
-   margin-left: -10vh;
+   margin-left: -5vh;
 }
 #playstore_icon{
    height: 3vh;
-   margin-top: -1.5vh;
+   margin-top: -3vh;
   
 }
 .playstore_container{
@@ -72,19 +72,21 @@
 }
 #playstore_words{
    font-weight: lighter;
-   margin-top: -0.5vh;
+   margin-top: -1.6vh;
    font-size: 100%;
    margin-left: 2vh;
 }
 #get_on{
-   font-size: 110%;
+   font-size: 100%;
 }
 #playstore_container{
    width: 10vw;
-   background-color: white;
-   border: solid 2px #F57C00;
-   margin-left: 2vh;
-   margin-top: -2vh;
+   background-color: #F57C00;
+   border: none;
+   color: white;
+   margin-left: -10vh;
+   margin-top: 2vh;
+   border-radius: 10px;
 }
 
 
@@ -97,7 +99,7 @@
 
 #working{
    text-align: center;
-   font-size: 300%;
+   font-size: 70px;
 }
 .howitworks{
    margin-top: 20vh;
@@ -107,7 +109,7 @@
 .howitworks_container{
    display: flex;
    margin-left: 15vh;
-   margin-top: 15vh;
+   margin-top: 9vh;
    text-align: center;
    gap: 30vh;
 
@@ -118,14 +120,14 @@
        padding: 17% 20% 17% 10%;
        width: 5%;
        border-radius: 50%;
-       font-size: 50px;
+       font-size: 40px;
        background-color: #F57C00;
        color: white;
 }
 
 .howitworks_text{
    border: solid 2px #F57C00;
-   width: 20vw;
+   width: 18vw;
    height: 30vh;
    text-align: center;
    margin-top: 10vh;
@@ -142,7 +144,6 @@
 
 @media only screen and (min-width: 0px) and (max-width:480px){
   
-
 
 .customer_container{
    display: flex;
@@ -174,12 +175,13 @@
    margin-left: 1vh;
    padding-top: 2%;
 }
-#numbers{
+#customer_numbers{
   color: white;
   text-align: center;
-   width: 7vw;
+   width: 2.5vw;
    height: 5vh;
    border-radius: 50%;
+   padding: 2% 3.5% 0.5% 2.5%;
    background-color: #F57C00;
 }
 #number_words{
@@ -187,26 +189,24 @@
    margin-top: 4vh;
    font-size: 90%;
 }
-#numbers_two{
-   width: 10vw;
-   height: 5vh;
-   border-radius: 50%;
-   text-align: center;
-   background-color: #F57C00;
-   color: white;
-}
+
 #phone_image{
    height: 15vh;
-   margin-left: -25vh;
-   margin-top: 40vh;
+   margin-left: -12vh;
+   margin-top: 15vh;
+}
+#application_phone{
+    height: 40vh;
+    margin-left: 10vh;
 }
 .application_outlook{
    display: flex;
-   margin-left: -9vh;
+   margin-left: -15vh;
   
 }
 .image_container{
    margin-top: -20vh;
+   margin-left: -0.5vh;
 }
 #playstore_icon{
    height: 3vh;
@@ -226,12 +226,15 @@
    font-size: 90%;
 }
 #playstore_container{
-   width: 40vw;
-   background-color: white;
-   border: solid 2px #F57C00;
-   margin-left: 2vh;
-   margin-top: -2vh;
+   width: 45vw;
+   background-color: #F57C00;
+   border: none;
+   color: white;
+   margin-left: 5vh;
+   margin-top: 2vh;
+   border-radius: 10px;
 }
+
 
 
 
@@ -243,7 +246,7 @@
 
 #working{
    text-align: center;
-   font-size: 300%;
+   font-size: 200%;
 }
 .howitworks{
    margin-top: 20vh;
@@ -319,31 +322,32 @@
    margin-left: 5vh;
    padding-top: 2vh;
 }
-#numbers{
+
+#customer_numbers{
   color: white;
   text-align: center;
-   width: 6vw;
+   width: 2.5vw;
    height: 5vh;
    border-radius: 50%;
+   padding: 2% 3% 0.5% 2.5%;
    background-color: #F57C00;
 }
+
 #number_words{
    margin-left: 2.5vw;
    margin-top: 3vh;
    font-size: 130%;
 }
-#numbers_two{
-   width: 6vw;
-   height: 5vh;
-   border-radius: 50%;
-   text-align: center;
-   background-color: #F57C00;
-   color: white;
-}
+
 #phone_image{
    height: 15vh;
-   margin-left: -25vh;
-   margin-top: 40vh;
+   margin-left: -15vh;
+   margin-top: 20vh;
+}
+
+#application_phone{
+    height: 40vh;
+    margin-left: 10vh;
 }
 .application_outlook{
    display: flex;
@@ -351,7 +355,7 @@
   
 }
 .image_container{
-   margin-top: -20vh;
+   margin-top: -19vh;
 }
 #playstore_icon{
    height: 3vh;
@@ -370,12 +374,15 @@
 #get_on{
    font-size: 90%;
 }
+
 #playstore_container{
    width: 30vw;
-   background-color: white;
-   border: solid 2px #F57C00;
-   margin-left: 2vh;
-   margin-top: -2vh;
+   background-color: #F57C00;
+   border: none;
+   color: white;
+   margin-left: 8vh;
+   margin-top: 2vh;
+   border-radius: 10px;
 }
 
 
@@ -401,28 +408,30 @@
    margin-left: 5vh;
    margin-top: 15vh;
    text-align: center;
-   gap: 30vh;
+   gap: 10vh;
   
 }
 
 #icons_howitworks{
      /* border: solid; */
-       padding: 13% 12% 13% 9%;
+       padding: 10% 11% 12% 8%;
        width: 5%;
        border-radius: 50%;
-       font-size: 45px;
+       font-size: 40px;
        background-color: #F57C00;
        color: white;
+    
 }
 
 .howitworks_text{
    border: solid 2px #F57C00;
-   width: 70vw;
-   height: 30vh;
+   width: 50vw;
+   height: 20vh;
    text-align: center;
    margin-top: 10vh;
    box-shadow: 0 2px  #F57C00;
    font-size: 100%;
+   margin-left: 15vh;
 }
 
 
@@ -464,31 +473,27 @@
    margin-left: 2vh;
    padding-top: 1vh;
 }
-#numbers{
+
+#customer_numbers{
   color: white;
   text-align: center;
-   width: 3vw;
-   height: 5.5vh;
+   width: 2.5vw;
+   height: 5vh;
    border-radius: 50%;
+   padding: 1.5% 2% 0.1% 2%;
    background-color: #F57C00;
 }
+
 #number_words{
    margin-left: 2.5vw;
    margin-top: 2vh;
    font-size: 230%;
 }
-#numbers_two{
-   width: 4vw;
-   height: 5.5vh;
-   border-radius: 50%;
-   text-align: center;
-   background-color: #F57C00;
-   color: white;
-}
+
 #phone_image{
    height: 15vh;
    margin-left: -17vh;
-   margin-top: 25vh;
+   margin-top: 20vh;
 }
 .application_outlook{
    display: flex;
@@ -497,9 +502,11 @@
 }
 .image_container{
    margin-top: -20vh;
+   margin-left: 3vh;
 }
 #playstore_icon{
    height: 3vh;
+   margin-top: -2vh;
    
   
 }
@@ -509,18 +516,23 @@
 #playstore_words{
    font-weight: lighter;
    margin-top: -0.5vh;
-   font-size: 90%;
-   margin-left: 5vh;
+   font-size: 95%;
+   margin-left: 2vh;
 }
 #get_on{
-   font-size: 90%;
+   font-size: 95%;
+   margin-left: 3.5vh;
 }
+
+
 #playstore_container{
-   width: 20vw;
-   background-color: white;
-   border: solid 2px #F57C00;
-   margin-left: 2vh;
-   margin-top: -2vh;
+   width: 25vw;
+   background-color: #F57C00;
+   border: none;
+   color: white;
+   margin-left: 8vh;
+   margin-top: 2vh;
+   border-radius: 10px;
 }
 
 
@@ -553,7 +565,7 @@
 
 #icons_howitworks{
  /* border: solid; */
-       padding: 12% 10% 13% 10%;
+       padding: 12% 10% 13% 9%;
        width: 5%;
        border-radius: 50%;
        font-size: 50px;
@@ -571,6 +583,7 @@
    margin-top: 10vh;
    box-shadow: 0 2px  #F57C00;
    font-size: 150%;
+   margin-left: 13vh;
 }
 
 
@@ -798,12 +811,16 @@
 #get_on{
    font-size: 100%;
 }
+
+
 #playstore_container{
-   width: 15vw;
-   background-color: white;
-   border: solid 2px #F57C00;
-   margin-left: 2vh;
-   margin-top: -2vh;
+   width: 20vw;
+   background-color: #F57C00;
+   border: none;
+   color: white;
+   margin-left: 8vh;
+   margin-top: 2vh;
+   border-radius: 10px;
 }
 
 
