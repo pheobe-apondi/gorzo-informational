@@ -1,6 +1,9 @@
 /* Start:Contact-Section Css */
 
 
+body{
+    font-family: "Manrope";
+}
 #highlightedContactHeading{
     color: #F57C00;
 
@@ -8,6 +11,7 @@
 
 #contactHeading{
     text-align: center;
+    font-size: 40px;
 }
 
 #contactHr{
@@ -17,12 +21,14 @@
 
 form{
     justify-content: center;
+    align-items: center;
     background-color: #F57C00;
     width: 45vw;
     border-radius: 0.7em;
     padding: 3em;
+    padding-left:4em ;
     margin-top: 3%;
-   
+   font-size: 24px;
     
 
 }
@@ -85,9 +91,11 @@ hr{
     form{
     justify-content: center;
     background-color: #F57C00;
-    width: 62vw;
+    width: 58vw;
     border-radius: 0.7em;
     padding:3em;
+        padding-left:2em ;
+
     
 
 }
@@ -103,7 +111,7 @@ label{
 #email,#name{
     padding: 0.7em;
     border: none;
-    width: 16em;
+    width: 15em;
     border-radius: 0.2em;
 }
 
@@ -150,6 +158,8 @@ hr{
     width: 60vw;
     border-radius: 0.7em;
     padding: 3em;
+        padding-left:4em ;
+
     
 
 }
@@ -165,7 +175,7 @@ label{
 #email,#name{
     padding: 0.7em;
     border: none;
-    width: 15em;
+    width: 18em;
     border-radius: 0.2em;
 }
 
@@ -192,7 +202,7 @@ hr{
 }
 
 #contactButton{
-margin-left: 36%;
+margin-left: 35%;
      width: 56%;
 
 
