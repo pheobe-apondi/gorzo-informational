@@ -70,6 +70,9 @@ body{
     }
 }
 @media only screen and (min-width:481px) and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
     #about{
         font-size:3rem;
         font-weight: lighter;
@@ -90,7 +93,11 @@ body{
         width: 100%;
     }
     #img{
-        display: none;
+        position: absolute;
+        width: 43%;
+        left: 60%;
+        border-radius: 0% 0% 0% 50%;
+        top: -24%;
     }
     #platform{
         font-size: 2rem;
@@ -98,8 +105,11 @@ body{
     }
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
+    body{
+        overflow-x: hidden;
+    }
     #about{
-        font-size:3rem;
+        font-size:4rem;
         font-weight: lighter;
     }
     #founded{
@@ -116,12 +126,22 @@ body{
     #mamamboga{
         width: 100%;
     }
+    #img{
+        position: absolute;
+        width: 60%;
+        left: 60%;
+        border-radius: 0% 0% 0% 50%;
+        top: -25%;
+    }
     #platform{
         font-size: 2rem;
         width:100% ;
     }
 }
 @media only screen and (min-width:1025px) and (max-width:1200px) {
+    body{
+        overflow-x: hidden;
+    }
     #about{
         font-size:3rem;
         font-weight: lighter;
