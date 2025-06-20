@@ -1,193 +1,270 @@
-/* Start-About-us section */
-body{
+/* Start-About us-section */
+body {
     font-family: "Manrope";
     overflow-x: hidden;
+    margin: 0;
 }
-.about_us{
-    transform: translate(0);
-    font-family: manrope;
+
+.about_us {
     font-size: 22px;
 }
-#about{
-    transform: translate(20%);
-    font-weight: lighter;
+
+#about {
+    transform: translateX(20%);
+    font-size: 40px;
 }
-#us{
+
+#us {
     color: #F57C00;
 }
-#line{
+
+#line {
     border: solid #F57C00 2px;
 }
-#hb{
-    color: #F57C00;
-    font-size: 24px;
-}
-.mama{
-    display: flex;
-      width: 100%;
-      position: relative;
 
+#founded,
+#platform {
+    font-size: 18px;
+    width: 100%;
+    padding: 1em;
 }
-.mama p{
+
+#hb {
+    color: #F57C00;
+    font-size: 20px;
+}
+
+.mama {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-left: 2%;
+}
+
+.mama p {
     margin-top: 20%;
 }
-#mamamboga{
-    width: 120%;
+
+#mamamboga {
+    width: 100%;
 }
-#img{
+
+#img {
     position: absolute;
     width: 36%;
     left: 65%;
-    border-radius: 0% 0% 0% 50%;
+    border-radius: 0 0 0 50%;
     top: -33%;
 }
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+}
+
+.footerLogo {
+    text-align: center;
+}
+
+#footerLogo {
+    width: 9em;
+}
+
+#footerLogoText {
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.footerRightContainer {
+    text-align: right;
+}
+
+.footerCopyright {
+    background-color: #F57C00;
+    color: white;
+    text-align: center;
+    font-family: "Julius Sans One";
+}
 @media only screen and (min-width:0px) and (max-width:480px) {
-    #about{
-        font-size:3rem;
-        font-weight: lighter;
+    body{
+        overflow-x: hidden;
     }
-    #founded{
-            font-size: 2rem;
-            width:100% ;
+    #about {
+        font-size: 2.5rem;
     }
-    #hb{
-        color: #F57C00;
-        font-size: 3rem;
+
+    #founded,
+    #platform {
+        font-size: 1.2rem;
     }
-    .mama{
-        display: grid;
-    
+
+    #hb {
+        font-size: 2rem;
     }
-    #mamamboga{
-        width: 100%;
+
+    .mama {
+        display: block;
     }
-    #img{
+
+    #img {
         display: none;
     }
-    #platform{
-        font-size: 2rem;
-        width:100% ;
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .footerSection {
+        display: block;
+        text-align: center;
+    }
+
+    #footerLogo {
+        width: 5em;
+        margin: auto;
+    }
+
+    #footerLogoText {
+        font-size: 12px;
+        margin: 0.5em 0;
+    }
+    .footerRightContainer {
+        text-align: center;
     }
 }
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     body{
         overflow-x: hidden;
     }
-    #about{
-        font-size:3rem;
-        font-weight: lighter;
-    }
-    #founded{
-            font-size: 2rem;
-            width:100% ;
-    }
-    #hb{
-        color: #F57C00;
+    #about {
         font-size: 3rem;
     }
-    .mama{
-        display: grid;
-    
+
+    #founded,
+    #platform {
+        font-size: 1.1rem;
     }
-    #mamamboga{
-        width: 100%;
+
+    #hb {
+        font-size: 1.5rem;
     }
-    #img{
-        position: absolute;
-        width: 43%;
-        left: 60%;
-        border-radius: 0% 0% 0% 50%;
-        top: -24%;
-    }
-    #platform{
-        font-size: 2rem;
-        width:100% ;
-    }
-}
-@media only screen and (min-width:769px) and (max-width:1024px) {
-    body{
-        overflow-x: hidden;
-    }
-    #about{
-        font-size:4rem;
-        font-weight: lighter;
-    }
-    #founded{
-            font-size: 2rem;
-            width:100% ;
-    }
-    .mama{
+
+    .mama {
         display: grid;
     }
-    #hb{
-        color: #F57C00;
-        font-size: 2.5rem;
-    }
-    #mamamboga{
-        width: 100%;
-    }
-    #img{
-        position: absolute;
-        width: 60%;
-        left: 60%;
-        border-radius: 0% 0% 0% 50%;
+
+    #img {
+        width: 50%;
+        left: 55%;
         top: -25%;
     }
-    #platform{
-        font-size: 2rem;
-        width:100% ;
+
+    .footerSection {
+        font-size: 1.1em;
+    }
+
+    #footerLogo {
+        width: 7em;
     }
 }
-@media only screen and (min-width:1025px) and (max-width:1200px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     body{
         overflow-x: hidden;
     }
-    #about{
-        font-size:3rem;
-        font-weight: lighter;
+    #about {
+        font-size: 3.5rem;
     }
-    #founded{
-            font-size: 2rem;
-            width:100% ;
+
+    #founded,
+    #platform {
+        font-size: 1.2rem;
     }
-    #hb{
-        color: #F57C00;
-        font-size: 3rem;
-    }
-    .mama{
-        display: flex;
-    
-    }
-    #mamamboga{
-        width: 100%;
-    }
-    #platform{
+
+    #hb {
         font-size: 2rem;
-        width:100% ;
+    }
+
+    #img {
+        width: 50%;
+        left: 60%;
+        top: -45%;
+    }
+
+    .footerSection {
+        font-size: 1.2em;
+    }
+
+    #footerLogo {
+        width: 8em;
+    }
+
+    #footerLogoText {
+        font-size: 1em;
     }
 }
-@media only screen and (min-width:1201px) {
-    #about{
-        font-size:3rem;
-        font-weight: lighter;
+@media (min-width: 1025px) and (max-width: 1200px) {
+    body{
+        overflow-x: hidden;
     }
-    #founded{
-            font-size: 2rem;
-            width:100% ;
+    #about {
+        font-size: 30px;
     }
-    .mama{
-        display: flex;
-        p{
-            width: 50%;
-        }
+
+    #hb {
+        font-size: 22px;
     }
-    #hb{
-        color: #F57C00;
-        font-size: 2.5rem;
+
+    #footerLogo {
+        width: 6em;
     }
-    #platform{
-        font-size: 2rem;
-        width:100% ;
+
+    .footerSection {
+        font-size: 1.3em;
     }
 }
-/* End-About-us section */
+@media (min-width: 1201px) {
+    body{
+        overflow-x: hidden;
+    }
+    #about {
+        font-size: 40px;
+    }
+
+    #hb {
+        font-size: 24px;
+    }
+
+    #founded,
+    #platform {
+        font-size: 20px;
+    }
+
+    .mama {
+        display: flex;
+    }
+
+    .mama p {
+        width: 50%;
+    }
+
+    #footerLogo {
+        width: 10em;
+    }
+
+    #footerLogoText {
+        font-size: 1.2em;
+    }
+}
+/* End-About us-section */
