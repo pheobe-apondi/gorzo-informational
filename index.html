@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
@@ -23,7 +23,7 @@
                 <div class="phone-images">
                     <img src="Images/habavendoe.png" class="phone-img phone-back-left">
                     <img src="Images/habainventory.png" class="phone-img phone-front">
-                    <img src="Images/abavendorhome.png" class="phone-img phone-back-right">
+                    <img src="Images/habavendoe.png" class="phone-img phone-back-right">
                 </div>
                 <div class="vendors-section">
                     <h2>Vendors</h2>
@@ -32,8 +32,7 @@
                         <li><span class="circle">2</span> Manage inventory</li>
                         <li><span class="circle">3</span> Track Sales and income</li>
                     </ul>
-                    <img src="Images/grocery.png"
-                        class="groceries-img">
+                    <img src="Images/grocery.png" class="groceries-img">
                 </div>
             </div>
             <button class="visit-button">Visit Site</button>
@@ -48,7 +47,7 @@
             <div class="vendors-icon">
                 <div class="box box-back">
                     <img src="Images/addproduct.png" class="feature-icon">
-                    <h3 id="addproduct">Add Products</h3>
+                    <h3 >Add Products</h3>
                     <p>Add your products on the app</p>
                 </div>
                 <div class="box box-front">
@@ -74,20 +73,21 @@
 
                 <div class="contactInputs">
 
+
                     <div>
                         <label class=" contactFormLabel" id="contactNameLabel">Name</label><br>
-                        <input id="name" placeholder="Enter your name">
+                        <input type="name" id="name" placeholder="Enter your name">
                     </div>
 
                     <div>
-                        <label class="contactFormLabel" id="contactEmailLabel">Email</label><br>
-                        <input id="email" placeholder="Enter your email">
+                        <label class="contactFormLabel" id="contactEmailLabel" for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="Enter you r email">
                     </div>
                 </div>
 
                 <div class="messageInputs">
                     <label id="contactMessageLabel">Message</label><br>
-                    <input id="contactTextInput" placeholder="Enter here....."><br>
+                    <textarea id="contactTextInput" name="texInput" rows="4" cols="30">Enter text here...</textarea>
 
                     <button id="contactButton">Send Message</button>
 
