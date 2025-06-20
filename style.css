@@ -1,12 +1,13 @@
-body{
+.body{
    
-font-family: Manrope;
+
+  font-family: "Manrope", sans-serif;
  
 }
 
 .title h1 {
     color: black;
-     font-size: 70px;
+     font-size: 60px;
     margin-bottom: 40px;
 }
 .vendors-section{
@@ -129,11 +130,10 @@ font-family: Manrope;
     background-color: #ff6600;
     color: #fff;
     border: none;
-    padding: 12px 53px;
-    font-size: 30px;
-    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 36px;
+    border-radius: 15px;
     cursor: pointer;
-    margin-left: 4.5%;
     margin-top: 50px;
     
 }
@@ -185,7 +185,6 @@ font-family: Manrope;
 }
 
 .box-front {
-   
     transform: translateY(-30px);
     box-shadow: 0 8px 16px rgba(206, 97, 8, 0.2);
     z-index: 4;
@@ -226,50 +225,13 @@ font-family: Manrope;
 
 
 
-@media screen and  (min-width: 320px) and (max-width:470px)
-
- {
-#addproduct  {
-    color:#ff6600;
-    font-size: 10px;
-}
-
-.groceries-img {
-    position: absolute;
-    top: 90%;
-    right: -100px;
-    width: 70%;
-    height: 15%;
-
-}
-.visit-button{
-    font-size: 16px;
-     padding: 12px 33px;
-
-}
-
-
-.box-front {
-    margin-top: 20%;
-    transform: translateY(-30px);
-    box-shadow: 0 8px 16px rgba(206, 97, 8, 0.2);
-    z-index: 4;
-}
- }
 
 
 @media screen and  (max-width: 480px)
  {
 
-   .vendors-icon h3 {
-   color:#ff6600;
-    font-size: 20px;
-}
-.vendors-icon p{
-    font-size: 15px;
-}
 .title h1 {
-    font-size:30px;
+    font-size:20px;
     margin-bottom: 40px;
 }
 .vendors-icon {
@@ -311,30 +273,24 @@ font-family: Manrope;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 20px;
  
 }
 
 
  .vendors-section h2 {
    
-    font-size: 24px;
+    font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
     color: #e05c00;
 } 
 
-    .box-front {
+    .feature-box-front {
         transform: translateY(0);
-        margin-top: 20px;
-          box-shadow: none
         
     }
-.box-back{
-     transform: translateY(0);
-        margin-top: 20px;
-          box-shadow: none
-}
+
 
 .feature-box {
     background-color: #fff;
@@ -357,92 +313,29 @@ font-family: Manrope;
         display: block;
         opacity: 1;
     }
-.grow-business-section h2{
-    font-size: 30px;
-}
-.highlight{
-    font-size: 30px;
-}
-
-.vendor-list {
-
-
-    margin-right: 0px;
-    margin-bottom: 30px;
-    margin-left: 0;
-}
- .description {
-    max-width: 950px;
-    margin: 0 auto 50px;
-    font-size: 16px;
-    color: black;
-    text-align: center;
 }
 
 
-}
-
-
-@media screen and  (width: 768px)
- {
- 
-  .groceries-img {
-    position: absolute;
-    top: 140%;
-    right: -30px;
-    width: 50%;
-    height: 30%;
-
-}
-.vendors-section h2{
-    font-size: 40px;
-}
-    .box-front {
-        transform: translateY(0);
-        margin-top: 20px;
-          box-shadow: none
-        
-    }
-.box-back{
-     transform: translateY(0);
-        margin-top: 20px;
-          box-shadow: none
-}
- }
 
 
 
-@media screen and  (width: 768px)
- {
-    .box{
-    margin-bottom: 5px;
-}
- }
 
-@media screen and  (min-width: 481px) and (max-width:770px)
+
+@media screen and  (min-width: 481px) and (max-width:768px)
  {
 
 .title h1 {
-    font-size: 30px;
+    font-size: 1.5em;
     margin-bottom: 40px;
 }
 .vendors-icon {
     align-items: center;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 30px;
     margin-top: 50px;
-
+    position: relative;
     z-index: 1;
-}
-.box{
-    margin-bottom: 2px;
-}
-.grow-business-section h2{
-    font-size: 30px;
-}
-.highlight{
-     font-size: 30px;
 }
 
 .content {
@@ -452,14 +345,14 @@ font-family: Manrope;
 }
 .phone-images {
     position: relative;
-    width: 120px;
-    height: 130px;
+    width: 90px;
+    height: 110px;
     left: -40px;
     margin-bottom: 50px;
 }
 .vendors-section {
         margin-left: 0;
-        margin-top: 100px;
+        margin-top: 30px;
     }
 
 .vendor-list {
@@ -474,19 +367,24 @@ font-family: Manrope;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 1.0em;
  
 }
 
 
  .vendors-section h2 {
    
-    font-size: 40px;
+    font-size: 1.5em;
      margin-left: 40px;
  
     color: #e05c00;
 } 
- 
+
+    .feature-box-front {
+        transform: translateY(0);
+        
+    }
+
 
 .feature-box {
     background-color: #fff;
@@ -509,81 +407,19 @@ font-family: Manrope;
         display: block;
         opacity: 1;
     }
-
-.box-front {
-        transform: translateY(0);
-        margin-top: 20px;
-          box-shadow: none
-        
-    }
-.box-back{
-     transform: translateY(0);
-        margin-top: 40px;
-          box-shadow: none
-}
-.box{
-    margin-bottom: 2px;
-}
-
-
-
 }
 
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .grow-business-section h2{
-    font-size: 50px;
-   
-}
 
- .highlight{
-    font-size: 50px;
-        
-    }
-.title h1 {
-
-     font-size: 50px;
-   
-}
-  .box {
-        padding: 15px; 
-        margin: 10px; 
-        width: 90%; 
-    }
-.feature-box {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    width: 180px;
-  
-  
-}
 .vendors-section h2 {
    
-    font-size: 30px;
-    margin-left: 60px;
+    font-size: 1.5em;
+    text-align: center;
     margin-bottom: 20px;
     color: #e05c00;
 }
- .box-front {
-        transform: translateY(0);
-        margin-top: 20px;
-          box-shadow: none
-        
-    }
-.box-back{
-     transform: translateY(0);
-        margin-top: 40px;
-          box-shadow: none
-}
-.box{
-    margin-bottom: 2px;
-}
-
-
 
 .phone-images {
     position: relative;
@@ -594,7 +430,7 @@ font-family: Manrope;
 }
 .groceries-img {
     position: absolute;
-    top: 130%;
+    top: 110%;
     right: -100px;
     width: 100%;
     height: 70%;
@@ -603,7 +439,13 @@ font-family: Manrope;
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
 
-
+.vendors-section h2 {
+   
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e05c00;
+}
 
 .phone-images {
     position: relative;
@@ -618,20 +460,12 @@ font-family: Manrope;
 
 .vendors-section h2 {
    
-    font-size:50px;
-    /* text-align: center; */
+    font-size: 1.5em;
+    text-align: center;
     margin-bottom: 20px;
     color: #e05c00;
 }
 
-.groceries-img {
-    position: absolute;
-    top: 120%;
-    right: -80px;
-    width: 100%;
-    height: 70%;
-
-}
 .phone-images {
     position: relative;
     width: 180px;
