@@ -11,3 +11,6 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+const date = document.getElementById('copyrightText')
+const getDate = new Date().getFullYear()
+date.textContent=`@ ${getDate} HABA HABA`
