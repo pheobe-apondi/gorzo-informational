@@ -11,6 +11,13 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-const date = document.getElementById('copyrightText')
-const getDate = new Date().getFullYear()
-date.textContent=`@ ${getDate} HABA HABA`
+const openMenu = document.getElementById('openMenu');
+const closeMenu = document.getElementById('closeMenu');
+const navMenu = document.getElementById('navMenu');
+
+openMenu.addEventListener('click', () => {
+  navMenu.classList.add('active');
+});
+closeMenu.addEventListener('click', () => {
+  navMenu.classList.remove('active');
+});
