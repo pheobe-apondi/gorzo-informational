@@ -7,6 +7,7 @@ body {
 
 }
 
+
 /* Start Hero-Section */
 
 .home-bg {
@@ -18,16 +19,16 @@ body {
     position: relative;
 
     img {
-
+        margin-left: 2%;
         width: 10%;
         position: relative;
     }
 }
 
 .icons {
-    margin-left: 20%;
+    margin-left: 5%;
     word-spacing: 1.5em;
-    color: #e05c00;
+    color: #F57C00;
     cursor: pointer;
 }
 
@@ -36,6 +37,7 @@ body {
 }
 
 .home-content {
+    padding-right: 5%;
     position: absolute;
     background-color: white;
     top: 0%;
@@ -45,25 +47,12 @@ body {
     border-radius: 1% 1% 1% 70%;
     text-align: center;
 
-    nav {
-        padding-top: 5%;
-        font-size: 1.5rem;
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 5%;
-        gap: 5%;
-
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-
-    }
+    
 
     h1 {
+        margin-left: 5%;
         margin-top: 7%;
-        font-size: 5em;
+        font-size: 80px;
 
     }
 
@@ -72,15 +61,55 @@ body {
     }
 }
 
+nav {
+  padding-top: 5%;
+  margin-left: 13%;
+  font-size: 25px;
+  /* display: flex; */
+  align-items: left;
+  gap: 5%;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+  margin: -15% 0% 0% 86%;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  align-items: center;
+  transition: right 0.3s;
+}
+
+.close-btn {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+  right: 32px;
+}
+
 nav a:hover {
     color: #F57C00;
     border-bottom: solid 1px #F57C00;
 }
 
 .home-content p {
-    margin-left: 22%;
+    margin-left: 23%;
     width: 60%;
-    font-size: 2.5em;
+    font-size: 40px;
     font-family: "Kodchasan";
 
 }
@@ -97,7 +126,7 @@ nav a:hover {
     padding: 1%;
     width: 19%;
     border-radius: 50px;
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 
 .home-content button:hover {
@@ -105,7 +134,7 @@ nav a:hover {
 }
 
 #vendors {
-    background-color: #e7be95;
+    background-color: #FBE3CA;
     color: #e67728;
 }
 
@@ -119,8 +148,9 @@ nav a:hover {
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
 
         img {
+            margin-top: 6%;
             z-index: 1;
-            width: 15%;
+            width: 20%;
         }
     }
 
@@ -132,34 +162,35 @@ nav a:hover {
         nav {
             padding-top: 20%;
             font-size: 1rem;
-
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5%;
-
+            position: relative;
+            
         }
 
         h1 {
-            margin-top: 15%;
-            font-size: 3.5em;
+            margin-left: 8%;
+            margin-top: 5%;
+            font-size: 2.5em;
 
         }
 
     }
 
+
+
     .icons {
        display: flex;
-       left: 13%;
-       gap: 25%;
+       left: 10%;
+       font-size: x-large;
+       gap: 35%;
         position: absolute;
-        top: 4%;
+        top: 46%;
 
     }
 
     .home-content p {
         margin: 15%;
         width: 70%;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .home-content button {
@@ -167,12 +198,52 @@ nav a:hover {
         padding: 2%;
         width: 35%;
         border-radius: 50px;
-        font-size: 0.9rem;
+        font-size: 0.9rem;nav a{
+        text-align: left;
+    }
     }
 
 }
 
 
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: stretch;
+     text-align: left;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    z-index: 1000;
+    gap: 30px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: right 0.3s;
+  }
+  .nav-menu.active {
+    right: 0;
+  }
+  .hamburger {
+    margin-top: -11%;
+    display: block;
+  
+  }
+  .close-btn {
+    display: block;
+  }
+  nav {
+    gap: 0;
+
+    
+  }
+  .nav-menu a{
+    text-align: left;
+    margin-left: 16%;
+  }
+}
 
 @media only screen and (min-width:481px) and (max-width:780px) {
     .home-bg {
@@ -180,6 +251,7 @@ nav a:hover {
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
 
         img {
+            margin-top: 2%;
             z-index: 1;
             width: 15%;
         }
@@ -201,24 +273,22 @@ nav a:hover {
         }
 
         h1 {
-            margin-top: 15%;
-            font-size: 3.5em;
+            margin-top: 7%;
+            font-size: 2.7em;
 
         }
 
     }
 
-    .icons {
-        margin: 1% 0% 0% 65%;
-        position: absolute;
-        top: 4.5%;
+   .icons {
+      margin: 4% 0% 0% 15%;
 
     }
 
     .home-content p {
-        margin: 15%;
+        margin: 10%;
         width: 70%;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .home-content button {
@@ -233,43 +303,49 @@ nav a:hover {
 
 @media only screen and (min-width:781px)and (max-width:1024px) {
     .home-bg {
-        height: 25vh;
+        height: 100%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
     }
 
     .home-content {
-        width: 85%;
-        border-radius: 5% 0% 0% 50%;
-        height: 50%;
-
+        width: 75%;
+        border-radius: 5% 0% 0% 60%;
+        height: 80%;
+      
         h1 {
-            margin-top: 10%;
-            font-size: 3em;
+            margin-top: 5%;
+            font-size: 2.8em;
 
+        }
+         nav {
+            padding-left: 5%;
+            font-size: 0.9rem; 
         }
 
     }
+.icons{
+margin-left: -3%;
+}
 
-    .icons {
-        margin: 0;
-    }
+
+
 
     .home-content p {
-        margin: 9% 23%;
+        margin: 5% 23%;
         width: 60%;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .home-content button {
-        margin: 1%;
+        margin-top: 5%;
         padding: 1%;
-        width: 25%;
+        width: 20%;
         border-radius: 30px;
-        font-size: 1.5rem;
+        font-size: 0.9rem;
     }
 }
 
-@media only screen and (min-width:1025px) and (max-width:1280px) {
+@media only screen and (min-width:1025px) and (max-width:1279px) {
     .home-bg {
         height: 30vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
@@ -278,7 +354,7 @@ nav a:hover {
     .home-content {
         width: 85%;
         border-radius: 5% 0% 0% 50%;
-        height: 70%;
+        height: 80%;
 
         h1 {
             margin-top: 10%;
@@ -314,34 +390,125 @@ nav a:hover {
     }
 
     .home-content {
-        width: 85%;
-        border-radius: 5% 0% 0% 50%;
-        height: 70%;
+        width: 75%;
+        border-radius: 0% 0% 0% 70%;
+        height: 85%;
 
         h1 {
-            margin-top: 10%;
-            font-size: 5em;
+            margin-top: 5%;
+            font-size: 4em;
+            margin-left: 10%;
 
         }
     }
-
-    .icons {
-        margin: 0;
-    }
+nav {
+    font-size: medium;
+    padding-left: 7%;
+}
+    
 
     .home-content p {
-        margin: 9% 23%;
+        margin:0% 20% 3% 25%;
         width: 60%;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .home-content button {
-        margin: 1%;
+        margin: 5%;
         padding: 1%;
-        width: 25%;
+        width: 20%;
         border-radius: 50px;
         font-size: 1.5rem;
     }
+
+}
+@media (width: 912px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: stretch;
+     text-align: left;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    z-index: 1000;
+    gap: 30px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: right 0.3s;
+  }
+  .nav-menu.active {
+    right: 0;
+  }
+  .hamburger {
+    margin-left: 85%;
+    margin-top: -3%;
+    display: block;
+  
+  }
+  .close-btn {
+    display: block;
+  }
+  nav {
+    gap: 0;
+  }
+  .nav-menu a{
+    text-align: left;
+    margin-left: 16%;
+    font-size: x-large;
+  }
+    .icons {
+        margin:2% 0% 0% 16%;
+        font-size: x-large;
+    }
+
+    .close-btn{
+    top: 1.2%;
+    right: 9%;
+}
 }
 
+@media (width: 768px){
+
+.hamburger{
+
+    margin-left: 93%;
+}
+.close-btn{
+    top: 35px;
+    right: 63px;
+}
+.home-content p{
+margin-left: 15%;
+}
+}
+@media (width: 540px){
+
+.hamburger{
+
+    margin-left: 93%;
+}
+.close-btn{
+    top: 25px;
+    right: 40px;
+}
+.home-content p{
+margin-left: 15%;
+}
+}
+
+@media (width: 820px){
+.home-content nav{
+    margin: 0%;
+}
+.home-content{
+    height: 35%;
+
+}
+.home-content button{
+    height: 8%;
+}
+}
 /* End Hero-Section*/
