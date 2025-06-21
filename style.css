@@ -545,7 +545,7 @@ margin-left: 15%;
 
 .highlight {
   color: #ff6600;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 
@@ -673,7 +673,7 @@ margin-left: 15%;
 }
 
 .grow-business-section h2 {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
@@ -1156,7 +1156,7 @@ margin-left: 15%;
 
 #contactHeading{
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 #contactHr{
@@ -2819,7 +2819,7 @@ hr{
 #faq_section{
   h1{
 font-family: "Manrope";
-font-size: 70px;
+font-size: 60px;
 font-weight: 450;
   }
   
@@ -2893,7 +2893,7 @@ width: 100%;
 #footerLogo {
   width: 9.5em;
   /* border: 1px solid white; */
-  margin-bottom: -5em;
+  margin-bottom: 0.2em;
 
 }
 #footerLogoText{
@@ -3331,6 +3331,9 @@ width: 1em;
       }
   }
 
+ nav{
+  margin: 0%;
+ }
 }
 
 @media only screen and (min-width: 853px) and (max-width: 1280px) {
@@ -3471,7 +3474,7 @@ margin-top: 1%;
 
 #working{
  text-align: center;
- font-size: 70px;
+ font-size: 60px;
 }
 .howitworks{
  margin-top: 20vh;
@@ -5010,7 +5013,7 @@ border-radius: 10px;
 
 /* Section */
 #about {
-  font-size: 2.5em;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -5088,10 +5091,15 @@ border-radius: 10px;
 #footerLogoText {
   text-align: center;
   margin-top: 10px;
+  /* margin-left: 5%; */
+  font-size: 21px;
+
 }
 
 .footerLogo {
-  text-align: center;
+  /* text-align: center; */
+  margin-top: 2%;
+  margin-left: -10%;
 }
 
 .footerCopyright {
