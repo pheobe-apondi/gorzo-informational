@@ -4,52 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-        <link rel="icon" href="Images/logo-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&display=swap"
         rel="stylesheet">
-
-    <title>Haba Haba</title>
 </head>
 
 <body>
-     <section id="hero-section">
-    <div class="home-bg">
-        <img src="Images/logohaba.png" alt="haba Logo">
 
-    </div>
-    <div class="home-content">
-       <nav>
-  <div class="hamburger" id="openMenu">
-    <i class="fa fa-bars"></i>
-  </div>
-  <div class="nav-menu" id="navMenu">
-    <div class="close-btn" id="closeMenu">
-      <i class="fa fa-times"></i>
-    </div>
-    <a href="hero-section">Home</a>
-    <a href="about-us">About Us</a>
-    <a href="venodr-section">Vendors</a>
-    <a href="customer-section">Customers</a>
-    <a href="faq_section">FAQ</a>
-    <span class="icons">
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-whatsapp"></i>
-    </span>
-  </div>
-</nav>
-        <h1>Welcome To<span> Haba Haba </span></h1>
-        <p>
-            Discover the benefits of group buying and selling fresh produce for savings and business growth.</p>
-        <button>For Customers</button>
-        <button id="vendors"> Vendors</button>
-    </div>
+
+
+
+    <section id="hero-section">
+        <div class="home-bg">
+            <img src="Images/logohaba.png" alt="haba Logo">
+
+        </div>
+        <div class="home-content">
+            <nav>
+                <div class="hamburger" id="openMenu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <div class="close-btn" id="closeMenu">
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <a href="#hero-section">Home</a>
+                    <a href="#about-us">About Us</a>
+                    <a href="#venodr-section">Vendors</a>
+                    <a href="#customer-section">Customers</a>
+                    <a href="#faq_section">FAQ</a>
+                    <span class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </span>
+                </div>
+            </nav>
+            <h1>Welcome To<span> Haba Haba </span></h1>
+            <p>
+                Discover the benefits of group buying and selling fresh produce for savings and business growth.</p>
+            <button>For Customers</button>
+            <button id="vendors"> Vendors</button>
+        </div>
+    </section>
+
+    <!-- Customer Section -->
+    <section id="customer-section">
+
+        <h1 id="why_choosehaba">Why choose <b id="customer_haba">HABA?</b></h1>
+        <hr class="line">
+        <h1 class="customer_heading">Customers</h1>
+        <div class="customer_container">
+            <div class="customer_side">
+                <div class="customer_activity">
+                    <h1 id="customer_numbers">1</h1>
+                    <P id="number_words">Fresh and healthy produce at lower prices</P>
+                </div>
+                <div class="customer_activity">
+                    <h1 id="customer_numbers">2</h1>
+                    <P id="number_words">Empowers communities to purchase by <br> eleveraging the power of group buying
+                    </P>
+                </div>
+                <div class="customer_activity">
+                    <h1 id="customer_numbers">3</h1>
+                    <P id="number_words">High-quality product description and easy navigation. </P>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="application_outlook">
+                    <div>
+                        <img src="Images/In-App Image.png" id="application_phone">
+                    </div>
+                    <div>
+                        <img src="Images/In-App Image.png" id="phone_image">
+                    </div>
+                </div>
+                <button id="playstore_container">
+                    <p id="get_on">GET IT ON</p>
+                    <div class="playstore_container">
+                        <img src="Images/2993672_brand_brands_google_logo_logos_icon.png" id="playstore_icon">
+                        <h2 id="playstore_words"><b>Google Play Store</b></h2>
+                    </div>
+
+                </button>
+            </div>
+        </div>
+
+
+        <div class="howitworks">
+            <h1 id="working">How it <b id="work_words">works</b></h1>
+        </div>
+        <hr class="line">
+
+        <div class="howitworks_container">
+            <div>
+                <i class="fa-solid fa-magnifying-glass fa-2xl" id="icons_howitworks"></i>
+                <div class="howitworks_text">
+                    <h1>Browse Products</h1>
+                    <p>Choose from selection of <br> fresh fruits, vegetables and <br> more</p>
+                </div>
+
+            </div>
+
+            <div>
+                <i class="fa-solid fa-user-group fa-2xl" id="icons_howitworks"></i>
+
+                <div class="howitworks_text">
+                    <h1>Join a Group</h1>
+                    <p>Create or find a group of <br> other customers who want <br>to buy the same product</p>
+                </div>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-piggy-bank fa-2xl" id="icons_howitworks"></i>
+
+                <div class="howitworks_text">
+                    <h1>Save Money</h1>
+                    <p>Benefit from lower prices <br> through collective buying</p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section id="venodr-section">
@@ -85,7 +167,7 @@
             <div class="vendors-icon">
                 <div class="box box-back">
                     <img src="Images/addproduct.png" class="feature-icon">
-                    <h3 >Add Products</h3>
+                    <h3>Add Products</h3>
                     <p>Add your products on the app</p>
                 </div>
                 <div class="box box-front">
@@ -141,7 +223,7 @@
 
     </section>
 
-     <section id="faq_section">
+    <section id="faq_section">
         <h1>FAQ</h1>
         <div class="faq">
             <div class="faqs">
@@ -191,9 +273,10 @@
                 </div>
             </div>
         </div>
-        </section>
+    </section>
 
-        <script src="index.js"></script>
+    <script src="index.js"></script>
+
 
 </body>
 
