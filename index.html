@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,6 +17,45 @@
 </head>
 
 <body>
+
+
+
+
+    <section id="hero-section">
+        <div class="home-bg">
+            <img src="Images/logohaba.png" alt="haba Logo">
+
+        </div>
+        <div class="home-content">
+            <nav>
+                <div class="hamburger" id="openMenu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <div class="close-btn" id="closeMenu">
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <a href="#hero-section">Home</a>
+                    <a href="#about-us">About Us</a>
+                    <a href="#venodr-section">Vendors</a>
+                    <a href="#customer-section">Customers</a>
+                    <a href="#faq_section">FAQ</a>
+                    <span class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </span>
+                </div>
+            </nav>
+            <h1>Welcome To<span> Haba Haba </span></h1>
+            <p>
+                Discover the benefits of group buying and selling fresh produce for savings and business growth.</p>
+            <button>For Customers</button>
+            <button id="vendors"> Vendors</button>
+        </div>
+    </section>
+
+    <!-- Customer Section -->
     <section id="customer-section">
 
         <h1 id="why_choosehaba">Why choose <b id="customer_haba">HABA?</b></h1>
@@ -30,7 +69,8 @@
                 </div>
                 <div class="customer_activity">
                     <h1 id="customer_numbers">2</h1>
-                    <P id="number_words">Empowers communities to purchase by <br> eleveraging the power of group buying</P>
+                    <P id="number_words">Empowers communities to purchase by <br> eleveraging the power of group buying
+                    </P>
                 </div>
                 <div class="customer_activity">
                     <h1 id="customer_numbers">3</h1>
@@ -40,12 +80,10 @@
             <div class="image_container">
                 <div class="application_outlook">
                     <div>
-                        <img
-                            src="Images/In-App Image.png" id="application_phone">
+                        <img src="Images/In-App Image.png" id="application_phone">
                     </div>
                     <div>
-                        <img src="Images/In-App Image.png"
-                            id="phone_image">
+                        <img src="Images/In-App Image.png" id="phone_image">
                     </div>
                 </div>
                 <button id="playstore_container">
@@ -94,14 +132,150 @@
             </div>
         </div>
 
+    </section>
+
+    <section id="venodr-section">
+        <section class="vendor">
+            <div class="title">
+                <h1>Little By Little Go Digital</h1>
+            </div>
+            <div class="content">
+                <div class="phone-images">
+                    <img src="Images/habavendoe.png" class="phone-img phone-back-left">
+                    <img src="Images/habainventory.png" class="phone-img phone-front">
+                    <img src="Images/habavendoe.png" class="phone-img phone-back-right">
+                </div>
+                <div class="vendors-section">
+                    <h2>Vendors</h2>
+                    <ul class="vendor-list">
+                        <li><span class="circle">1</span> Sell more products</li>
+                        <li><span class="circle">2</span> Manage inventory</li>
+                        <li><span class="circle">3</span> Track Sales and income</li>
+                    </ul>
+                    <img src="Images/grocery.png" class="groceries-img">
+                </div>
+            </div>
+            <button class="visit-button">Visit Site</button>
+        </section>
+        <section class="grow-business-section">
+            <h2>Grow Your Business <span class="highlight">With Us</span></h2>
+            <p class="description">
+                List your vegetables, fruits, and groceries on the MamaMboga App and reach customers across your town.
+                Accept orders, track sales, and get paid on time. All from your phone. MamaMboga connects readily
+                to buyers using the Customer App, so you sell more without leaving your stall.
+            </p>
+            <div class="vendors-icon">
+                <div class="box box-back">
+                    <img src="Images/addproduct.png" class="feature-icon">
+                    <h3>Add Products</h3>
+                    <p>Add your products on the app</p>
+                </div>
+                <div class="box box-front">
+                    <img src="Images/ordermanagment.png" class="feature-icon">
+                    <h3>Manage Orders</h3>
+                    <p>Manage your orders in groups and individual</p>
+                </div>
+                <div class="box box-back">
+                    <img src="Images/tracksells.png" class="sales-icon">
+                    <h3>Track Sales</h3>
+                    <p>Add your products in the app</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="contact-Section">
+
+        <h1 id="contactHeading">Contact <strong id="highlightedContactHeading">Us</strong> </h1>
+        <hr id="contactHr">
+        <div class="contactSectionContainer">
+
+            <form>
+
+                <div class="contactInputs">
+
+
+                    <div>
+                        <label class=" contactFormLabel" id="contactNameLabel">Name</label><br>
+                        <input type="name" id="name" placeholder="Enter your name">
+                    </div>
+
+                    <div>
+                        <label class="contactFormLabel" id="contactEmailLabel" for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+
+                <div class="messageInputs">
+                    <label id="contactMessageLabel">Message</label><br>
+                    <textarea id="contactTextInput" name="texInput" rows="4" cols="30">Enter text here...</textarea>
+
+                    <button id="contactButton">Send Message</button>
+
+                </div>
+
+            </form>
+            <div>
+
+            </div>
 
 
 
 
     </section>
 
+    <section id="faq_section">
+        <h1>FAQ</h1>
+        <div class="faq">
+            <div class="faqs">
+                <button class="accordion"> How do I register? <i class="fa-solid fa-plus"></i></button>
 
+                <div class="panel">
+                    <p>Download the app from Play Store. Use your mobile phone number and create a password to sign up
+                        for the application.</p>
+                </div>
+                <button class="accordion"> Do you offer delivery? <i class="fa-solid fa-plus"></i></button>
+                <div class="panel">
+                    <p>We do not provide delivery services, as the featured mama mboga vendors will be located in your
+                        vicinity.</p>
+                </div>
+                <button class="accordion"> How to become a vendor <i class="fa-solid fa-plus"></i></button>
+                <div class="panel">
+                    <p>Search for the Haba website on your browser and register as a vendor. Once registered, you can
+                        display your products and begin selling.</p>
+                </div>
+                <button class="accordion"> How do the groups work? <i class="fa-solid fa-plus"></i></button>
+                <div class="panel">
+                    <p>Any user can create a group and share the automatically generated link for others to join. To
+                        purchase a product as a group, the minimum quantity specified by the vendor must be met.
+                        Additionally, an individual can participate in more than two groups. </p>
+                </div>
+            </div>
+            <div class="faqs">
+                <button class="accordion">What if someone leaves a group? <i class="fa-solid fa-plus"></i></button>
+                <div class="panel">
+                    <p>If a member leaves a group and the minimum quantity requirement is no longer met by the deadline,
+                        the group will be closed.</p>
+                </div>
+                <button class="accordion"> How long do groups last? <i class="fa-solid fa-plus"></i></button>
+                <div class="panel">
+                    <p>Each group remains active for a maximum duration of 48 hours. </p>
+                </div>
+                <button class="accordion"> How to pay for my group products <i class="fa-solid fa-plus"></i></button>
+                <div class="panel">
+                    <p>Once a group meets the minimum quantity requirement, all participants will receive a notification
+                        confirming that the threshold has been met and that payment can now be made. Each member is
+                        responsible for paying for their own share of the products. </p>
+                </div>
+                <button class="accordion"> What if I want to buy alone? <i class="fa-solid fa-plus"></i></button>
+                <div class="panel">
+                    <p>We also offer individual products, allowing customers to make solo purchases. One can buy group
+                        products alone required the minimum order quantity has been met.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <script src="index.js"></script>
 
 
 </body>
