@@ -1,270 +1,303 @@
-/* Start-About us-section */
 body {
-    font-family: "Manrope";
-    overflow-x: hidden;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Manrope";
 }
 
-.about_us {
-    font-size: 22px;
-}
-
+/* Section */
 #about {
-    transform: translateX(20%);
-    font-size: 40px;
+  font-size: 2.5em;
+  text-align: center;
 }
 
 #us {
-    color: #F57C00;
+  color: #F57C00;
 }
 
 #line {
-    border: solid #F57C00 2px;
+  border: solid #F57C00;
+  width: 98%;
 }
 
-#founded,
-#platform {
-    font-size: 18px;
-    width: 100%;
-    padding: 1em;
-}
-
-#hb {
-    color: #F57C00;
-    font-size: 20px;
+#vegFruit {
+  width: 36%;
+  border-radius: 0 0 0 50%;
+  left: 65%;
+  position: absolute;
+  top: -6%;
 }
 
 .mama {
-    display: flex;
-    width: 100%;
-    position: relative;
-    margin-left: 2%;
-}
-
-.mama p {
-    margin-top: 20%;
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+  gap: 10%;
 }
 
 #mamamboga {
-    width: 100%;
+  width: 50%;
 }
 
-#img {
-    position: absolute;
-    width: 36%;
-    left: 65%;
-    border-radius: 0 0 0 50%;
-    top: -33%;
+#platform {
+  margin: 2em auto;
+  font-size: 18px;
+  padding: 0 15px;
 }
+
+#founded {
+  font-size: 18px;
+  margin-top: 20%;
+  padding: 0 10px;
+}
+
+#hb {
+  color: #F57C00;
+  font-size: 22px;
+}
+
+/* Footer */
 .footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+  font-size: 18px;
 }
 
 .footerSection {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 1em;
 }
 
 .footer ul {
-    list-style: none;
-    padding: 0;
-    line-height: 2em;
-}
-
-.footerLogo {
-    text-align: center;
+  list-style: none;
+  line-height: 2;
+  padding: 0;
 }
 
 #footerLogo {
-    width: 9em;
+  width: 130px;
 }
 
 #footerLogoText {
-    font-size: 18px;
-    margin-top: 1em;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.footerRightContainer {
-    text-align: right;
+.footerLogo {
+  text-align: center;
 }
 
 .footerCopyright {
-    background-color: #F57C00;
-    color: white;
+  background-color: #F57C00;
+  text-align: center;
+  font-family: "Julius Sans One";
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 389px) {
+  .mama {
+    display: block;
+    margin-left: 0;
+  }
+
+  #mamamboga {
+    width: 90%;
+  }
+
+  #vegFruit {
+    display: none;
+  }
+
+  #platform {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  #hb {
+    font-size: 15px;
+  }
+
+  #founded {
+    font-size: 14px;
+    margin-top: 0;
+    padding: 0 10px;
+  }
+
+  .footerSection {
+    flex-direction: column;
+    margin-left: 4px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .footerLogo {
+    margin-left: -15em;
+  }
+  #footerLogo {
+    width: 90px;
+    margin-left: -4em;
+  }
+}
+
+
+@media only screen and  (max-width:392px) {
+  .mama {
+    display: block;
+    margin-left: 0;
+  }
+
+  #mamamboga {
+    width: 90%;
+  }
+
+  #vegFruit {
+    display: none;
+  }
+
+  #platform {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  #hb {
+    font-size: 15px;
+  }
+
+  #founded {
+    font-size: 14px;
+    margin-top: 0;
+    padding: 0 10px;
+  }
+
+  .footerSection {
+    flex-direction: column;
+    margin-left: 4px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .footerLogo {
+    margin-left: -15em;
+  }
+  #footerLogo {
+    width: 90px;
+    margin-left: -4em;
+  }
+}
+
+@media only screen and (min-width:393px) and (max-width: 600px) {
+  .mama {
+    display: block;
+    margin-left: 0;
+  }
+
+  #mamamboga {
+    width: 90%;
+  }
+
+  #vegFruit {
+    display: none;
+  }
+
+  #platform {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  #hb {
+    font-size: 15px;
+  }
+
+  #founded {
+    font-size: 14px;
+    margin-top: 0;
+    padding: 0 10px;
+  }
+
+  .footerSection {
+    flex-direction: column;
+    margin-left: 4px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .footerLogo {
+    margin-left: -17em;
+  }
+  #footerLogo {
+    width: 90px;
+    margin-left: -4em;
+  }
+}
+
+@media only screen and (max-width: 990px) and (min-width:601px) {
+  .mama {
+    display: block;
+    margin-left: 1%;
+    
+    width: 98%;
+  }
+
+  #vegFruit {
+    display: none;
+  }
+
+  .aboutImage {
+    flex-direction: column;
+    margin: 0px;
+  }
+  #platform {
+    font-size: 16px;
+    margin-top: 0px;
+    width: 94%;
+  }
+
+  #founded {
+    font-size: 16px;
+    padding: 0 1em;
+    width: 98%;
+  }
+  #hb {
+    font-size: 16px;
+  }
+  
+
+  #mamamboga {
+    width: 90%;
+    /* margin: auto; */
+    /* border: 1px solid; */
+    margin-left: 5%;
+  }
+
+  .footer {
+    font-size: 14px;
+    /* margin-left: 0.%; */
+    width: 100.8%;
+  }
+  #footerLogo {
+    width: 90px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  body{
+    font-size: 16px;
+  }
+  #footerLogo {
+    width: 100px;
     text-align: center;
-    font-family: "Julius Sans One";
+  }
+
+  #footerLogoText {
+    text-align: center;
+  }
 }
-@media only screen and (min-width:0px) and (max-width:480px) {
-    body{
-        overflow-x: hidden;
-    }
-    #about {
-        font-size: 2.5rem;
-    }
-
-    #founded,
-    #platform {
-        font-size: 1.2rem;
-    }
-
-    #hb {
-        font-size: 2rem;
-    }
-
-    .mama {
-        display: block;
-    }
-
-    #img {
-        display: none;
-    }
-
-    footer {
-        font-size: 1rem;
-    }
-
-    .footerSection {
-        display: block;
-        text-align: center;
-    }
-
-    #footerLogo {
-        width: 5em;
-        margin: auto;
-    }
-
-    #footerLogoText {
-        font-size: 12px;
-        margin: 0.5em 0;
-    }
-    .footerRightContainer {
-        text-align: center;
-    }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-    body{
-        overflow-x: hidden;
-    }
-    #about {
-        font-size: 3rem;
-    }
-
-    #founded,
-    #platform {
-        font-size: 1.1rem;
-    }
-
-    #hb {
-        font-size: 1.5rem;
-    }
-
-    .mama {
-        display: grid;
-    }
-
-    #img {
-        width: 50%;
-        left: 55%;
-        top: -25%;
-    }
-
-    .footerSection {
-        font-size: 1.1em;
-    }
-
-    #footerLogo {
-        width: 7em;
-    }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-    body{
-        overflow-x: hidden;
-    }
-    #about {
-        font-size: 3.5rem;
-    }
-
-    #founded,
-    #platform {
-        font-size: 1.2rem;
-    }
-
-    #hb {
-        font-size: 2rem;
-    }
-
-    #img {
-        width: 50%;
-        left: 60%;
-        top: -45%;
-    }
-
-    .footerSection {
-        font-size: 1.2em;
-    }
-
-    #footerLogo {
-        width: 8em;
-    }
-
-    #footerLogoText {
-        font-size: 1em;
-    }
-}
-@media (min-width: 1025px) and (max-width: 1200px) {
-    body{
-        overflow-x: hidden;
-    }
-    #about {
-        font-size: 30px;
-    }
-
-    #hb {
-        font-size: 22px;
-    }
-
-    #footerLogo {
-        width: 6em;
-    }
-
-    .footerSection {
-        font-size: 1.3em;
-    }
-}
-@media (min-width: 1201px) {
-    body{
-        overflow-x: hidden;
-    }
-    #about {
-        font-size: 40px;
-    }
-
-    #hb {
-        font-size: 24px;
-    }
-
-    #founded,
-    #platform {
-        font-size: 20px;
-    }
-
-    .mama {
-        display: flex;
-    }
-
-    .mama p {
-        width: 50%;
-    }
-
-    #footerLogo {
-        width: 10em;
-    }
-
-    #footerLogoText {
-        font-size: 1.2em;
-    }
-}
-/* End-About us-section */
