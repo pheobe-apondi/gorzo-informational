@@ -59,7 +59,12 @@ html{
       color: #F57C00;
   }
 }
-
+.flogo{
+  margin-left: 15%;
+ img{
+width:30%;
+}
+}
 nav {
 padding-top: 5%;
 margin-left: 13%;
@@ -242,6 +247,7 @@ nav {
   text-align: left;
   margin-left: 16%;
 }
+
 }
 
 @media only screen and (min-width:481px) and (max-width:780px) {
@@ -499,6 +505,8 @@ nav {
 .home-content p{
 margin-left: 15%;
 }
+
+
 }
 @media (width: 540px){
 
@@ -513,6 +521,10 @@ margin-left: 15%;
 .home-content p{
 margin-left: 15%;
 }
+.footerLogo img{
+width: 5%;
+}
+
 }
 
 @media (width: 820px){
@@ -747,11 +759,6 @@ margin-left: 15%;
 
 
 
-
-
-
-
-
 @media screen and  (max-width: 480px)
 {
 .vendor-list {
@@ -908,6 +915,7 @@ margin-left: 15%;
         box-shadow: none
 }
 
+
 }
 
 @media screen and  (width: 768px)
@@ -950,6 +958,13 @@ margin-left: 15%;
 }
  .box{
   margin-bottom: 5px;
+}
+.flogo {
+  margin-left: 7%;
+  img{
+width: 35%;
+}
+
 }
 }
 
@@ -1955,6 +1970,7 @@ margin-left: 0%;
    .title h1{
   font-size: 90px;
 }
+
 }
 
 
@@ -2890,12 +2906,7 @@ width: 100%;
  margin-left: 3em;
 }
 
-#footerLogo {
-  width: 9.5em;
-  /* border: 1px solid white; */
-  margin-bottom: 0.2em;
 
-}
 #footerLogoText{
   font-size: 25px;
   /* border: 1px solid red; */
@@ -2922,14 +2933,7 @@ margin-left: -0.6em;
 .footerCopyright {
   background-color: #FF6C00;
 
-  #copyrightText {
-      #copyrightText {
-          text-align: center;
-          font-size: 20px;
-      }
-
-      text-align: center;
-  }
+ 
 }
 
 #footerLogoText {
@@ -3008,7 +3012,7 @@ font-size: 35px;
           line-height: 2em;
       }
        /* border: 1px solid white; */
-      margin-left: -4em;
+      margin-left: -2em;
        font-size: 20px;
   }
 
@@ -3107,7 +3111,7 @@ font-size: 44px;
 
   #footerLogo {
       width: 9em;
-      transform: translateX(-0.2em);
+ 
   }
 
   #footerLogoText {
@@ -3119,10 +3123,10 @@ font-size: 44px;
       ul {
           list-style: none;
           line-height: 2em;
+      
       }
-/* border: 1px solid white; */
-      margin-left: -2.5em;
-      font-size: 0.7em;
+font-size: smaller;
+     
   }
 
   .footerRightContainer {
@@ -3149,11 +3153,9 @@ font-size: 44px;
       gap: 10%;
   }
 }
-/* @media only screen and (min-width:820px) and (max-width:1180px){
- .accordion{
-  border: 1px solid;
- } 
-} */
+@media only screen and (width:375px){
+
+}
 
 @media only screen and (max-width:1024px) and (min-width:767px) {
   .accordion{
@@ -3202,7 +3204,7 @@ margin: auto;
       }
       /* border: 1px solid orange; */
        font-size: 1em;
-       margin-left: -4em;
+       margin-left: -1em;
   }
 
   .footerRightContainer {
@@ -3215,18 +3217,7 @@ margin: auto;
       margin-left: -3em;
   }
 
-  .footerCopyright {
-      background-color: #FF6C00;
-
-      #copyrightText {
-          #copyrightText {
-              text-align: center;
-          }
-border: 1px solid white;
-          text-align: center;
-      }
-  }
-
+ 
   #footerLogoText {
       color: grey;
       font-size: 1em;
@@ -3236,16 +3227,7 @@ border: 1px solid white;
 
 @media only screen and (max-width:1200px) and (min-width:1025px) {
 
-footer{
-width: 1em;
-}
-.footerRightContainer{
-  /* border: 1px solid white; */
-}
-.footerLeftContainer{
-  /* border: 1px solid orange; */
-  
-}
+
   .footerSection {
       display: flex;
       gap: 1em;
@@ -3954,7 +3936,6 @@ display: none;
 
 #number_words{
  margin-left: 2.5vw;
- margin-top: -1vh;
  font-size: 33px;
 }
 
@@ -4061,6 +4042,10 @@ display: none;
 .howitworks_text h1{
  font-size: 42px;
 }
+.footerLeftContainer{
+  margin-left: 0%;
+}
+
 
 
 }
@@ -5028,11 +5013,11 @@ border-radius: 10px;
 
 #vegFruit {
  
-  width: 35.1%;
+  width: 35.7%;
   border-radius: 0 0 0 50%;
-  left: 65.4%;
+  left: 65.2%;
   position: absolute;
-  top: 98.5%;
+  top: 96.7%;
 }
 
 .mama {
@@ -5099,7 +5084,7 @@ border-radius: 10px;
 .footerLogo {
   /* text-align: center; */
   margin-top: 2%;
-  margin-left: -10%;
+  margin-left: 10%;
 }
 
 .footerCopyright {
@@ -5148,11 +5133,11 @@ border-radius: 10px;
   }
 
   .footerLogo {
-    margin-left: -15em;
+    margin-left: 15em;
   }
   #footerLogo {
     width: 90px;
-    margin-left: -4em;
+  
   }
 }
 
@@ -5195,12 +5180,10 @@ border-radius: 10px;
     font-size: 14px;
   }
 
-  .footerLogo {
-    margin-left: -15em;
-  }
+ 
   #footerLogo {
     width: 90px;
-    margin-left: -4em;
+    margin-left: 0em;
   }
 }
 
@@ -5242,13 +5225,7 @@ border-radius: 10px;
     font-size: 14px;
   }
 
-  .footerLogo {
-    margin-left: -17em;
-  }
-  #footerLogo {
-    width: 90px;
-    margin-left: -4em;
-  }
+ 
 }
 
 @media only screen and (max-width: 990px) and (min-width:601px) {
