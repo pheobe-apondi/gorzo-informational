@@ -544,7 +544,7 @@ width: 5%;
 
 .title h1 {
   color: black;
-   font-size: 60px;
+   font-size: 50px;
   margin-bottom: 40px;
 }
 .vendors-section{
@@ -685,14 +685,14 @@ width: 5%;
 }
 
 .grow-business-section h2 {
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
 .description {
   max-width: 950px;
   margin: 0 auto 50px;
-  font-size: 20px;
+   font-size: 1.5em;
   color: black;
   text-align: center;
 }
@@ -1069,7 +1069,7 @@ width: 35%;
 
 @media screen and (min-width: 771px) and (max-width: 1024px) {
 .title h1{
-  font-size: 70px;
+  font-size: 60px;
 }
   .vendor-icon{
       display: flex;
@@ -2050,7 +2050,7 @@ margin-left: 0%;
 @media only screen and (min-width: 769px) and (max-width:850px) {
  #contactHeading{
   text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 
@@ -3469,6 +3469,9 @@ margin-top: 1%;
  margin-top: 9vh;
  text-align: center;
  gap: 30vh;
+ p{
+   font-size: 1.em;
+ }
 
 }
 
@@ -5033,13 +5036,13 @@ border-radius: 10px;
 
 #platform {
   margin: 2em auto;
-  font-size: 18px;
+  font-size: 1.5em;
   padding: 0 15px;
 }
 
 #founded {
-  font-size: 18px;
-  margin-top: 20%;
+ font-size: 1.5em;
+  margin-top: 15%;
   padding: 0 10px;
 }
 
@@ -5235,6 +5238,11 @@ border-radius: 10px;
     
     width: 100%;
   }
+  #about {
+  font-size: 50px;
+  text-align: center;
+}
+
 
   #vegFruit {
     display: none;
@@ -5245,13 +5253,13 @@ border-radius: 10px;
     margin: 0px;
   }
   #platform {
-    font-size: 16px;
+ font-size: 20px;
     margin-top: 0px;
     width: 94%;
   }
 
   #founded {
-    font-size: 16px;
+    font-size: 20px;
     padding: 0 1em;
     width: 98%;
   }
@@ -5299,3 +5307,113 @@ border-radius: 10px;
   }
   
 }
+
+ 
+@media only screen and (min-width:1281px) and (max-width:1700px){
+#vegFruit {
+    filter: brightness(55%);
+    width: 37%;
+    border-radius: 0 0 0 50%;
+    left: 68.5%;
+    position: absolute;
+    top: 102%;
+  }
+  
+  .mama{
+    padding: 0%;
+     margin-top: -7%;
+
+  }
+  #platform{
+    margin-bottom: 10%;
+  }
+  .title {
+      margin-top: 5%;
+      
+  }
+  .title h1{
+    font-size: 40px;
+  }
+   .grow-business-section{
+    margin-top: 5%;
+   }
+  .grow-business-section h2{
+       font-size: 40px;
+  }
+  .grow-business-section p{
+      font-size: 20px;
+  }
+  .highlight{
+        font-size: 40px;
+  }
+  .accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  border-bottom: #FF6C00 solid 1px;
+}
+.footerLogo p{
+    font-size: 5px;
+
+}
+.footerLeftContainer{
+  font-size: 20px;
+  margin-left: -4%;
+}
+.footerRightContainer{
+  font-size: 20px;
+  margin-right: 2%;
+}
+
+  .visit-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 50px;
+  
+}
+
+.vendors-section h2{
+ font-size: 40px;
+}
+.contactSection h1{
+   font-size: 40px;
+}
+#about {
+  font-size: 40px;
+  text-align: center;
+}
+.customer_heading{
+    font-size: 40px;
+}
+.contactHeading {
+   font-size: 40px;
+}
+#faq_section h1{
+   font-size: 40px;
+}
+.contactInputs{
+  padding: 0%;
+}
+
+.home-content button {
+  margin-left: 15%;
+  height: 9%;
+  font-size: 22px;
+}
+
+
+}
+
+
