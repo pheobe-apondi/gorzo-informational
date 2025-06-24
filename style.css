@@ -59,7 +59,12 @@ html{
       color: #F57C00;
   }
 }
-
+.flogo{
+  margin-left: 15%;
+ img{
+width:30%;
+}
+}
 nav {
 padding-top: 5%;
 margin-left: 13%;
@@ -242,6 +247,7 @@ nav {
   text-align: left;
   margin-left: 16%;
 }
+
 }
 
 @media only screen and (min-width:481px) and (max-width:780px) {
@@ -422,6 +428,23 @@ nav {
 
 }
 @media (width: 912px) {
+  .home-bg {
+      height: 20vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+  }
+
+  .home-content {
+      width: 75%;
+      border-radius: 0% 0% 0% 70%;
+      height: 45%;
+
+      h1 {
+          margin-top: 5%;
+          font-size: 4em;
+          margin-left: 10%;
+
+      }
+  }
 .nav-menu {
   flex-direction: column;
   align-items: stretch;
@@ -482,6 +505,8 @@ nav {
 .home-content p{
 margin-left: 15%;
 }
+
+
 }
 @media (width: 540px){
 
@@ -496,6 +521,10 @@ margin-left: 15%;
 .home-content p{
 margin-left: 15%;
 }
+.footerLogo img{
+width: 5%;
+}
+
 }
 
 @media (width: 820px){
@@ -515,7 +544,7 @@ margin-left: 15%;
 
 .title h1 {
   color: black;
-   font-size: 60px;
+   font-size: 50px;
   margin-bottom: 40px;
 }
 .vendors-section{
@@ -528,7 +557,7 @@ margin-left: 15%;
 
 .highlight {
   color: #ff6600;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 
@@ -656,14 +685,14 @@ margin-left: 15%;
 }
 
 .grow-business-section h2 {
-  font-size: 80px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
 .description {
   max-width: 950px;
   margin: 0 auto 50px;
-  font-size: 20px;
+   font-size: 1.5em;
   color: black;
   text-align: center;
 }
@@ -727,11 +756,6 @@ margin-left: 15%;
 
 
 }
-
-
-
-
-
 
 
 
@@ -891,6 +915,7 @@ margin-left: 15%;
         box-shadow: none
 }
 
+
 }
 
 @media screen and  (width: 768px)
@@ -933,6 +958,13 @@ margin-left: 15%;
 }
  .box{
   margin-bottom: 5px;
+}
+.flogo {
+  margin-left: 7%;
+  img{
+width: 35%;
+}
+
 }
 }
 
@@ -1037,7 +1069,7 @@ margin-left: 15%;
 
 @media screen and (min-width: 771px) and (max-width: 1024px) {
 .title h1{
-  font-size: 70px;
+  font-size: 60px;
 }
   .vendor-icon{
       display: flex;
@@ -1139,7 +1171,7 @@ margin-left: 15%;
 
 #contactHeading{
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 #contactHr{
@@ -1938,6 +1970,7 @@ margin-left: 0%;
    .title h1{
   font-size: 90px;
 }
+
 }
 
 
@@ -2017,7 +2050,7 @@ margin-left: 0%;
 @media only screen and (min-width: 769px) and (max-width:850px) {
  #contactHeading{
   text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 
@@ -2802,7 +2835,7 @@ hr{
 #faq_section{
   h1{
 font-family: "Manrope";
-font-size: 70px;
+font-size: 60px;
 font-weight: 450;
   }
   
@@ -2873,12 +2906,7 @@ width: 100%;
  margin-left: 3em;
 }
 
-#footerLogo {
-  width: 9.5em;
-  /* border: 1px solid white; */
-  margin-bottom: -5em;
 
-}
 #footerLogoText{
   font-size: 25px;
   /* border: 1px solid red; */
@@ -2905,14 +2933,7 @@ margin-left: -0.6em;
 .footerCopyright {
   background-color: #FF6C00;
 
-  #copyrightText {
-      #copyrightText {
-          text-align: center;
-          font-size: 20px;
-      }
-
-      text-align: center;
-  }
+ 
 }
 
 #footerLogoText {
@@ -2991,7 +3012,7 @@ font-size: 35px;
           line-height: 2em;
       }
        /* border: 1px solid white; */
-      margin-left: -4em;
+      margin-left: -2em;
        font-size: 20px;
   }
 
@@ -3090,7 +3111,7 @@ font-size: 44px;
 
   #footerLogo {
       width: 9em;
-      transform: translateX(-0.2em);
+ 
   }
 
   #footerLogoText {
@@ -3102,10 +3123,10 @@ font-size: 44px;
       ul {
           list-style: none;
           line-height: 2em;
+      
       }
-/* border: 1px solid white; */
-      margin-left: -2.5em;
-      font-size: 0.7em;
+font-size: smaller;
+     
   }
 
   .footerRightContainer {
@@ -3132,11 +3153,9 @@ font-size: 44px;
       gap: 10%;
   }
 }
-/* @media only screen and (min-width:820px) and (max-width:1180px){
- .accordion{
-  border: 1px solid;
- } 
-} */
+@media only screen and (width:375px){
+
+}
 
 @media only screen and (max-width:1024px) and (min-width:767px) {
   .accordion{
@@ -3185,7 +3204,7 @@ margin: auto;
       }
       /* border: 1px solid orange; */
        font-size: 1em;
-       margin-left: -4em;
+       margin-left: -1em;
   }
 
   .footerRightContainer {
@@ -3198,18 +3217,7 @@ margin: auto;
       margin-left: -3em;
   }
 
-  .footerCopyright {
-      background-color: #FF6C00;
-
-      #copyrightText {
-          #copyrightText {
-              text-align: center;
-          }
-border: 1px solid white;
-          text-align: center;
-      }
-  }
-
+ 
   #footerLogoText {
       color: grey;
       font-size: 1em;
@@ -3219,16 +3227,7 @@ border: 1px solid white;
 
 @media only screen and (max-width:1200px) and (min-width:1025px) {
 
-footer{
-width: 1em;
-}
-.footerRightContainer{
-  /* border: 1px solid white; */
-}
-.footerLeftContainer{
-  /* border: 1px solid orange; */
-  
-}
+
   .footerSection {
       display: flex;
       gap: 1em;
@@ -3294,6 +3293,29 @@ width: 1em;
   #vegFruit {
    display:none;
   }
+}
+@media only screen and (width:853px) {
+ .home-bg {
+      height: 20vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
+  }
+
+  .home-content {
+      width: 75%;
+      border-radius: 0% 0% 0% 70%;
+      height: 45%;
+
+      h1 {
+          margin-top: 5%;
+          font-size: 4em;
+          margin-left: 10%;
+
+      }
+  }
+
+ nav{
+  margin: 0%;
+ }
 }
 
 @media only screen and (min-width: 853px) and (max-width: 1280px) {
@@ -3434,7 +3456,7 @@ margin-top: 1%;
 
 #working{
  text-align: center;
- font-size: 70px;
+ font-size: 60px;
 }
 .howitworks{
  margin-top: 20vh;
@@ -3447,6 +3469,9 @@ margin-top: 1%;
  margin-top: 9vh;
  text-align: center;
  gap: 30vh;
+ p{
+   font-size: 1.em;
+ }
 
 }
 
@@ -3914,7 +3939,6 @@ display: none;
 
 #number_words{
  margin-left: 2.5vw;
- margin-top: -1vh;
  font-size: 33px;
 }
 
@@ -4021,6 +4045,10 @@ display: none;
 .howitworks_text h1{
  font-size: 42px;
 }
+.footerLeftContainer{
+  margin-left: 0%;
+}
+
 
 
 }
@@ -4973,7 +5001,7 @@ border-radius: 10px;
 
 /* Section */
 #about {
-  font-size: 2.5em;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -4987,12 +5015,12 @@ border-radius: 10px;
 }
 
 #vegFruit {
-  filter: brightness(55%);
-  width: 37%;
+ 
+  width: 35.7%;
   border-radius: 0 0 0 50%;
-  left: 67.5%;
+  left: 65.2%;
   position: absolute;
-  top: 107%;
+  top: 96.7%;
 }
 
 .mama {
@@ -5008,13 +5036,13 @@ border-radius: 10px;
 
 #platform {
   margin: 2em auto;
-  font-size: 18px;
+  font-size: 1.5em;
   padding: 0 15px;
 }
 
 #founded {
-  font-size: 18px;
-  margin-top: 20%;
+ font-size: 1.5em;
+  margin-top: 15%;
   padding: 0 10px;
 }
 
@@ -5051,10 +5079,15 @@ border-radius: 10px;
 #footerLogoText {
   text-align: center;
   margin-top: 10px;
+  /* margin-left: 5%; */
+  font-size: 21px;
+
 }
 
 .footerLogo {
-  text-align: center;
+  /* text-align: center; */
+  margin-top: 2%;
+  margin-left: 10%;
 }
 
 .footerCopyright {
@@ -5103,11 +5136,11 @@ border-radius: 10px;
   }
 
   .footerLogo {
-    margin-left: -15em;
+    margin-left: 15em;
   }
   #footerLogo {
     width: 90px;
-    margin-left: -4em;
+  
   }
 }
 
@@ -5150,12 +5183,10 @@ border-radius: 10px;
     font-size: 14px;
   }
 
-  .footerLogo {
-    margin-left: -15em;
-  }
+ 
   #footerLogo {
     width: 90px;
-    margin-left: -4em;
+    margin-left: 0em;
   }
 }
 
@@ -5197,13 +5228,7 @@ border-radius: 10px;
     font-size: 14px;
   }
 
-  .footerLogo {
-    margin-left: -17em;
-  }
-  #footerLogo {
-    width: 90px;
-    margin-left: -4em;
-  }
+ 
 }
 
 @media only screen and (max-width: 990px) and (min-width:601px) {
@@ -5211,8 +5236,13 @@ border-radius: 10px;
     display: block;
     margin-left: 1%;
     
-    width: 98%;
+    width: 100%;
   }
+  #about {
+  font-size: 50px;
+  text-align: center;
+}
+
 
   #vegFruit {
     display: none;
@@ -5223,13 +5253,13 @@ border-radius: 10px;
     margin: 0px;
   }
   #platform {
-    font-size: 16px;
+ font-size: 20px;
     margin-top: 0px;
     width: 94%;
   }
 
   #founded {
-    font-size: 16px;
+    font-size: 20px;
     padding: 0 1em;
     width: 98%;
   }
@@ -5277,3 +5307,113 @@ border-radius: 10px;
   }
   
 }
+
+ 
+@media only screen and (min-width:1281px) and (max-width:1700px){
+#vegFruit {
+    filter: brightness(55%);
+    width: 37%;
+    border-radius: 0 0 0 50%;
+    left: 68.5%;
+    position: absolute;
+    top: 102%;
+  }
+  
+  .mama{
+    padding: 0%;
+     margin-top: -7%;
+
+  }
+  #platform{
+    margin-bottom: 10%;
+  }
+  .title {
+      margin-top: 5%;
+      
+  }
+  .title h1{
+    font-size: 40px;
+  }
+   .grow-business-section{
+    margin-top: 5%;
+   }
+  .grow-business-section h2{
+       font-size: 40px;
+  }
+  .grow-business-section p{
+      font-size: 20px;
+  }
+  .highlight{
+        font-size: 40px;
+  }
+  .accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  border-bottom: #FF6C00 solid 1px;
+}
+.footerLogo p{
+    font-size: 5px;
+
+}
+.footerLeftContainer{
+  font-size: 20px;
+  margin-left: -4%;
+}
+.footerRightContainer{
+  font-size: 20px;
+  margin-right: 2%;
+}
+
+  .visit-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 50px;
+  
+}
+
+.vendors-section h2{
+ font-size: 40px;
+}
+.contactSection h1{
+   font-size: 40px;
+}
+#about {
+  font-size: 40px;
+  text-align: center;
+}
+.customer_heading{
+    font-size: 40px;
+}
+.contactHeading {
+   font-size: 40px;
+}
+#faq_section h1{
+   font-size: 40px;
+}
+.contactInputs{
+  padding: 0%;
+}
+
+.home-content button {
+  margin-left: 15%;
+  height: 9%;
+  font-size: 22px;
+}
+
+
+}
+
+
