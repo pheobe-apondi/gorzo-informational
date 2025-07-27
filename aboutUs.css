@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+  
+  background: #f7f7f7;
+  font-family: "Manrope";
+}
+.header{
+  background-color: #2f9e44;
+}
+.team-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.team-section h2 {
+  font-size: 2.5rem;
+  color: rgb(232, 238, 232);
+  margin-bottom: 40px;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.team-member {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: #fff;
+}
+.team-member img {
+  width: 80%;
+  height: auto;
+  display: block;
+  transition: filter 0.3s ease;
+}
+.member-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #f5f8f5;
+  background-color: rgba(6, 7, 6, 0.233);
+  z-index: 2;
+  text-align: left;
+
+}
+.member-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.member-info p {
+  color: rgb(183, 230, 137);
+  margin: 0;
+  font-size: 0.9rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 10%;
+  height: 100%;
+  background:rgba(0, 128, 0, 0.568);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+
+  
+  transition: left 0.4s ease;
+  z-index: 1;
+}
+.overlay a {
+  color: #fff;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s;
+}
+.overlay a:hover {
+  transform: scale(1.2);
+  color: #00aced;
+}
+
+.team-member:hover .overlay {
+  left: 0;
+}
+
+    header {
+      background-color: #2f9e44;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: "Kodchasan";
+      font-size: 3.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+    }
+    .btn-group {
+      margin-top: 20px;
+    }
+    .btnn {
+      background-color: #fff;
+      color: #2f9e44;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin: 5px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn {
+      background-color:#eeebe8;
+      color:#2f9e44;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin: 5px;
+      border: none;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+     .features,  .testimonials {
+      display: grid;
+      gap: 20px;
+    }
+.steps{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+    .card {
+      width: 100%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      font-size: 1.1em;
+         color:#F57C00;
+      margin-top: 0;
+    }
+    .carousel img {
+    width: 100%;
+    }
+    .testimonial {
+      background: #e6f4ea;
+      border-left: 5px solid #2f9e44;
+      padding: 15px 20px;
+      border-radius: 8px;
+    }
+    .faqs{
+position: relative;
+    }
+.faqs i{
+ position: absolute;
+ right: 1%;
+}
+
+    section h2 {
+      font-size: 2em;
+      color: #2f9e44;
+      margin-bottom: 20px;
+    }
+    .cta {
+      text-align: center;
+      background-color: #2f9e44;
+      color: white;
+      padding: 40px 20px;
+    }
+    .cta a {
+      color: #2f9e44;
+      background: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      margin: 10px;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .arrow{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      border: none;
+      font-size: 34px;
+      color: #fff;
+   background-color: #2f9e44;
+      cursor: pointer;
+    }
+    .arrow-icon {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      border: none;
+      font-size: 34px;
+     color:#2f9e44;
+   background-color: #f2f5f2;
+      cursor: pointer;
+    }
+    .cta h2{
+      color: white;
+    }
+    .image-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+   .images-icon {
+  width: 150px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+
+
+    .accordion {
+      font-family: "Manrope";
+      font-size: 18px;
+      background-color: #eee;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: background-color 0.4s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .accordion:hover, .accordion.active {
+      background-color: #e6e3e3;
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+
+    .panel.active {
+      display: block;
+    }
+
+    .panel a {
+      text-decoration: none;
+      color: #F57C00;
+    }
+    @media screen and (min-width: 768px) {
+      .steps, .features, .faq {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .steps, .features {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+
+@media screen and (max-width: 767px) {
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-member img {
+    width: 100%;
+  }
+
+  .overlay {
+    width: 20%;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 0.9em;
+    max-width: 95%;
+  }
+
+  .btnn, .btn {
+    padding: 8px 12px;
+    font-size: 0.7rem;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+
+  .steps {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card h3 {
+    font-size: 0.9em;
+  }
+
+  .testimonial {
+    padding: 10px;
+  }
+
+  .accordion {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .panel {
+    padding: 0 12px;
+    font-size: 14px;
+  }
+
+  .faqs i {
+    right: 3%;
+  }
+
+  .cta {
+    padding: 20px 10px;
+  }
+
+  .cta a {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .arrow, .arrow-icon {
+    top: 15px;
+    left: 15px;
+    font-size: 24px;
+  }
+
+  .image-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .images-icon {
+    width: 100px;
+    height: 50px;
+  }
+}
