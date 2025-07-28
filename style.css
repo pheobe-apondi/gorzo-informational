@@ -23,7 +23,14 @@ html{
       position: relative;
   }
 }
+#vendor{
+  text-decoration: none;
 
+  font-size: 25px;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+}
 .icons {
   margin-left: 5%;
   word-spacing: 1.5em;
@@ -65,11 +72,20 @@ html{
 width:30%;
 }
 }
+
+.btn{
+  text-decoration: none;
+  background-color: #F57C00;
+  color: white;
+  padding: 12px 23px;
+  border-radius: 50px;
+  font-size: 24px;
+  margin: 1%;
+}
 nav {
 padding-top: 5%;
-margin-left: 13%;
+margin-left: 5%;
 font-size: 25px;
-/* display: flex; */
 align-items: left;
 gap: 5%;
 position: relative;
@@ -81,6 +97,7 @@ color: black;
 margin-right: 20px;
 }
 
+
 .hamburger {
 display: none;
 font-size: 22px;
@@ -91,10 +108,36 @@ margin: -15% 0% 0% 86%;
 .nav-menu {
 display: flex;
 flex-wrap: wrap;
-gap: 5%;
+gap: 4%;
 align-items: center;
 transition: right 0.3s;
 }
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #F57C00;
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+
+
+
+
 
 .close-btn {
 display: none;
@@ -107,7 +150,6 @@ right: 32px;
 
 nav a:hover {
   color: #F57C00;
-  border-bottom: solid 1px #F57C00;
 }
 
 .home-content p {
@@ -157,7 +199,10 @@ nav a:hover {
           width: 20%;
       }
   }
-
+.btn{
+  padding: 5px 15px;
+  font-size: 15px;
+}
   .home-content {
       width: 100%;
       border-radius: 0% 0% 50% 50%;
@@ -187,7 +232,7 @@ nav a:hover {
      font-size: x-large;
      gap: 35%;
       position: absolute;
-      top: 46%;
+      top: 60%;
 
   }
 
@@ -323,13 +368,18 @@ nav {
 
       }
        nav {
+  
           padding-left: 5%;
           font-size: 0.9rem; 
       }
 
   }
+  .nav-link{
+    font-size: 10px;
+  }
 .icons{
-margin-left: -3%;
+
+margin-left: -5.5%;
 }
 
 
@@ -367,6 +417,7 @@ margin-left: -3%;
 
       }
   }
+
 
   .icons {
       margin: 0;
@@ -406,11 +457,14 @@ margin-left: -3%;
 
       }
   }
+
 nav {
   font-size: medium;
   padding-left: 7%;
 }
-  
+  .nav-link{
+    font-size: 16px;
+  }
 
   .home-content p {
       margin:0% 20% 3% 25%;
@@ -1161,9 +1215,7 @@ width: 35%;
 /* Start:Contact-Section Css */
 
 
-/* body{
-  font-family: "Manrope";
-} */
+
 #highlightedContactHeading{
   color: #F57C00;
 
@@ -3155,6 +3207,9 @@ font-size: smaller;
 }
 @media only screen and (width:375px){
 
+  .icons{
+    top: 70%;
+  }
 }
 
 @media only screen and (max-width:1024px) and (min-width:767px) {

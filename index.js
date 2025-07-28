@@ -21,3 +21,14 @@ openMenu.addEventListener('click', () => {
 closeMenu.addEventListener('click', () => {
   navMenu.classList.remove('active');
 });
+const navLinks = document.querySelectorAll('#navMenu a');
+navLinks.forEach(link => {
+  link.addEventListener('click', () =>{
+    navMenu.classList.remove('active');
+  })
+})
+
+function goHome() {
+
+  window.location.href = 'index.html';
+  }
